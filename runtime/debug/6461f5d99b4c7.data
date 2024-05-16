@@ -1,0 +1,262 @@
+a:11:{s:6:"config";a:5:{s:10:"phpVersion";s:6:"7.0.10";s:10:"yiiVersion";s:6:"2.0.12";s:11:"application";a:8:{s:3:"yii";s:6:"2.0.12";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:6:"7.0.10";s:6:"xdebug";b:1;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:27:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:51:"E:\wamp64\www\basic\vendor/yiisoft/yii2-swiftmailer";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:49:"E:\wamp64\www\basic\vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.9.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:45:"E:\wamp64\www\basic\vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:43:"E:\wamp64\www\basic\vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:45:"E:\wamp64\www\basic\vendor/yiisoft/yii2-faker";}}s:25:"kartik-v/yii2-krajee-base";a:3:{s:4:"name";s:25:"kartik-v/yii2-krajee-base";s:7:"version";s:7:"3.0.5.0";s:5:"alias";a:1:{s:12:"@kartik/base";s:56:"E:\wamp64\www\basic\vendor/kartik-v/yii2-krajee-base/src";}}s:30:"kartik-v/yii2-widget-typeahead";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-typeahead";s:7:"version";s:7:"1.0.4.0";s:5:"alias";a:1:{s:17:"@kartik/typeahead";s:61:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-typeahead/src";}}s:30:"kartik-v/yii2-widget-touchspin";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-touchspin";s:7:"version";s:7:"1.2.4.0";s:5:"alias";a:1:{s:17:"@kartik/touchspin";s:61:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-touchspin/src";}}s:31:"kartik-v/yii2-widget-timepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-timepicker";s:7:"version";s:7:"1.0.5.0";s:5:"alias";a:1:{s:12:"@kartik/time";s:62:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-timepicker/src";}}s:32:"kartik-v/yii2-widget-switchinput";a:3:{s:4:"name";s:32:"kartik-v/yii2-widget-switchinput";s:7:"version";s:7:"1.3.1.0";s:5:"alias";a:1:{s:19:"@kartik/switchinput";s:59:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-switchinput";}}s:28:"kartik-v/yii2-widget-spinner";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-spinner";s:7:"version";s:7:"1.0.1.0";s:5:"alias";a:1:{s:15:"@kartik/spinner";s:59:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-spinner/src";}}s:28:"kartik-v/yii2-widget-sidenav";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-sidenav";s:7:"version";s:7:"1.0.1.0";s:5:"alias";a:1:{s:15:"@kartik/sidenav";s:55:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-sidenav";}}s:28:"kartik-v/yii2-widget-select2";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-select2";s:7:"version";s:7:"2.2.4.0";s:5:"alias";a:1:{s:15:"@kartik/select2";s:59:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-select2/src";}}s:27:"kartik-v/yii2-widget-rating";a:3:{s:4:"name";s:27:"kartik-v/yii2-widget-rating";s:7:"version";s:7:"1.0.5.0";s:5:"alias";a:1:{s:14:"@kartik/rating";s:58:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-rating/src";}}s:31:"kartik-v/yii2-widget-rangeinput";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-rangeinput";s:7:"version";s:7:"1.0.2.0";s:5:"alias";a:1:{s:13:"@kartik/range";s:62:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-rangeinput/src";}}s:26:"kartik-v/yii2-widget-growl";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-growl";s:7:"version";s:7:"1.1.2.0";s:5:"alias";a:1:{s:13:"@kartik/growl";s:57:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-growl/src";}}s:30:"kartik-v/yii2-widget-fileinput";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-fileinput";s:7:"version";s:7:"1.1.1.0";s:5:"alias";a:1:{s:12:"@kartik/file";s:61:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-fileinput/src";}}s:28:"kartik-v/yii2-widget-depdrop";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-depdrop";s:7:"version";s:7:"1.0.6.0";s:5:"alias";a:1:{s:15:"@kartik/depdrop";s:59:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-depdrop/src";}}s:35:"kartik-v/yii2-widget-datetimepicker";a:3:{s:4:"name";s:35:"kartik-v/yii2-widget-datetimepicker";s:7:"version";s:7:"1.5.1.0";s:5:"alias";a:1:{s:16:"@kartik/datetime";s:66:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-datetimepicker/src";}}s:31:"kartik-v/yii2-widget-datepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-datepicker";s:7:"version";s:7:"1.4.8.0";s:5:"alias";a:1:{s:12:"@kartik/date";s:62:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-datepicker/src";}}s:31:"kartik-v/yii2-widget-colorinput";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-colorinput";s:7:"version";s:7:"1.0.6.0";s:5:"alias";a:1:{s:13:"@kartik/color";s:62:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-colorinput/src";}}s:26:"kartik-v/yii2-widget-alert";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-alert";s:7:"version";s:7:"1.1.5.0";s:5:"alias";a:1:{s:13:"@kartik/alert";s:57:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-alert/src";}}s:26:"kartik-v/yii2-widget-affix";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-affix";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:13:"@kartik/affix";s:53:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-affix";}}s:31:"kartik-v/yii2-widget-activeform";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-activeform";s:7:"version";s:7:"1.6.2.0";s:5:"alias";a:1:{s:12:"@kartik/form";s:62:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widget-activeform/src";}}s:21:"kartik-v/yii2-widgets";a:3:{s:4:"name";s:21:"kartik-v/yii2-widgets";s:7:"version";s:10:"dev-master";s:5:"alias";a:1:{s:15:"@kartik/widgets";s:52:"E:\wamp64\www\basic\vendor/kartik-v/yii2-widgets/src";}}s:20:"kartik-v/yii2-dialog";a:3:{s:4:"name";s:20:"kartik-v/yii2-dialog";s:7:"version";s:7:"1.0.6.0";s:5:"alias";a:1:{s:14:"@kartik/dialog";s:51:"E:\wamp64\www\basic\vendor/kartik-v/yii2-dialog/src";}}s:18:"kartik-v/yii2-grid";a:3:{s:4:"name";s:18:"kartik-v/yii2-grid";s:7:"version";s:10:"dev-master";s:5:"alias";a:1:{s:12:"@kartik/grid";s:49:"E:\wamp64\www\basic\vendor/kartik-v/yii2-grid/src";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:18:{s:4:"host";s:9:"127.0.0.1";s:10:"connection";s:10:"keep-alive";s:13:"cache-control";s:9:"max-age=0";s:9:"sec-ch-ua";s:66:""Microsoft Edge";v="113", "Chromium";v="113", "Not-A.Brand";v="24"";s:16:"sec-ch-ua-mobile";s:2:"?0";s:18:"sec-ch-ua-platform";s:9:""Windows"";s:3:"dnt";s:1:"1";s:25:"upgrade-insecure-requests";s:1:"1";s:10:"user-agent";s:129:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42";s:6:"accept";s:124:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7";s:14:"sec-fetch-site";s:11:"same-origin";s:14:"sec-fetch-mode";s:8:"navigate";s:14:"sec-fetch-user";s:2:"?1";s:14:"sec-fetch-dest";s:8:"document";s:7:"referer";s:52:"http://127.0.0.1/basic/web/index.php?r=stdt%2Fcreate";s:15:"accept-encoding";s:17:"gzip, deflate, br";s:15:"accept-language";s:47:"zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6";s:6:"cookie";s:222:"_csrf=f84049cee71a70fbaa834a59642f114ef1afcc56741a2e5fb42a7d9125e7ea5ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%14%CDp%2C%E4%DFz%7B%E1%FE%BF%8D1t%07n%28%E9%CD%BC%D2%E9%1Ba%91%92%14%3E%E0%E5%DCo%22%3B%7D";}s:15:"responseHeaders";a:2:{s:12:"X-Powered-By";s:10:"PHP/7.0.10";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";}s:5:"route";s:10:"stdt/index";s:6:"action";s:45:"app\controllers\StdtController::actionIndex()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:0:{}s:6:"SERVER";a:45:{s:9:"HTTP_HOST";s:9:"127.0.0.1";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:14:"HTTP_SEC_CH_UA";s:66:""Microsoft Edge";v="113", "Chromium";v="113", "Not-A.Brand";v="24"";s:21:"HTTP_SEC_CH_UA_MOBILE";s:2:"?0";s:23:"HTTP_SEC_CH_UA_PLATFORM";s:9:""Windows"";s:8:"HTTP_DNT";s:1:"1";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:15:"HTTP_USER_AGENT";s:129:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42";s:11:"HTTP_ACCEPT";s:124:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7";s:19:"HTTP_SEC_FETCH_SITE";s:11:"same-origin";s:19:"HTTP_SEC_FETCH_MODE";s:8:"navigate";s:19:"HTTP_SEC_FETCH_USER";s:2:"?1";s:19:"HTTP_SEC_FETCH_DEST";s:8:"document";s:12:"HTTP_REFERER";s:52:"http://127.0.0.1/basic/web/index.php?r=stdt%2Fcreate";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip, deflate, br";s:20:"HTTP_ACCEPT_LANGUAGE";s:47:"zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6";s:11:"HTTP_COOKIE";s:222:"_csrf=f84049cee71a70fbaa834a59642f114ef1afcc56741a2e5fb42a7d9125e7ea5ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%14%CDp%2C%E4%DFz%7B%E1%FE%BF%8D1t%07n%28%E9%CD%BC%D2%E9%1Ba%91%92%14%3E%E0%E5%DCo%22%3B%7D";s:4:"PATH";s:522:"C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\wamp64\bin\php\php7.0.10;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps";s:10:"SystemRoot";s:10:"C:\WINDOWS";s:7:"COMSPEC";s:27:"C:\WINDOWS\system32\cmd.exe";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:6:"WINDIR";s:10:"C:\WINDOWS";s:16:"SERVER_SIGNATURE";s:80:"<address>Apache/2.4.23 (Win64) PHP/7.0.10 Server at 127.0.0.1 Port 80</address>
+";s:15:"SERVER_SOFTWARE";s:32:"Apache/2.4.23 (Win64) PHP/7.0.10";s:11:"SERVER_NAME";s:9:"127.0.0.1";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:13:"E:/wamp64/www";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:13:"E:/wamp64/www";s:12:"SERVER_ADMIN";s:29:"wampserver@wampserver.invalid";s:15:"SCRIPT_FILENAME";s:33:"E:/wamp64/www/basic/web/index.php";s:11:"REMOTE_PORT";s:5:"58675";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:14:"r=stdt%2Findex";s:11:"REQUEST_URI";s:35:"/basic/web/index.php?r=stdt%2Findex";s:11:"SCRIPT_NAME";s:20:"/basic/web/index.php";s:8:"PHP_SELF";s:20:"/basic/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1684141529.618;s:12:"REQUEST_TIME";i:1684141529;}s:3:"GET";a:1:{s:1:"r";s:10:"stdt/index";}s:4:"POST";a:0:{}s:6:"COOKIE";a:1:{s:5:"_csrf";s:130:"f84049cee71a70fbaa834a59642f114ef1afcc56741a2e5fb42a7d9125e7ea5ea:2:{i:0;s:5:"_csrf";i:1;s:32:"Íp,äßz{áþ¿1tn(éÍ¼Òéa‘’>àåÜo";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}s:3:"log";a:1:{s:8:"messages";a:19:{i:0;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1684141529.6312301;i:4;a:0:{}i:5;i:2266456;}i:1;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1684141529.631259;i:4;a:0:{}i:5;i:2267888;}i:2;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1684141529.6358111;i:4;a:0:{}i:5;i:2753960;}i:3;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1684141529.6365671;i:4;a:0:{}i:5;i:2885136;}i:4;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1684141529.6369009;i:4;a:0:{}i:5;i:2913224;}i:6;a:6:{i:0;s:29:"Route requested: 'stdt/index'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1684141529.6384251;i:4;a:0:{}i:5;i:3230344;}i:7;a:6:{i:0;s:24:"Route to run: stdt/index";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1684141529.6397281;i:4;a:0:{}i:5;i:3403872;}i:8;a:6:{i:0;s:61:"Running action: app\controllers\StdtController::actionIndex()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1684141529.6402841;i:4;a:0:{}i:5;i:3497928;}i:9;a:6:{i:0;s:57:"Opening DB connection: mysql:host=localhost;dbname=std_db";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1684141529.6447761;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:134;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4513088;}i:12;a:6:{i:0;s:191:"    
+				select
+					count( std_t.id )
+				from
+					std_t,
+					std_class_t,
+					class_t
+				where 
+					std_class_t.std_id = std_t.id
+					and
+					std_class_t.class_id = class_t.id
+					 ";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6463809;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:134;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4529760;}i:15;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `std_t`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6512849;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:170;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4944560;}i:18;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'std_t' AND kcu.table_name = 'std_t'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.65238;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:170;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4978760;}i:21;a:6:{i:0;s:42:"SELECT * FROM `class_t` ORDER BY `id` DESC";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.656733;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:51;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5819904;}i:24;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `class_t`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.657064;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:51;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5831008;}i:27;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'class_t' AND kcu.table_name = 'class_t'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.657548;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:51;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5842848;}i:30;a:6:{i:0;s:61:"Rendering view file: E:\wamp64\www\basic\views\stdt\index.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1684141529.6590669;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:56;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5982520;}i:31;a:6:{i:0;s:24:"Loading module: gridview";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1684141529.681669;i:4;a:3:{i:0;a:5:{s:4:"file";s:67:"E:\wamp64\www\basic\vendor\kartik-v\yii2-krajee-base\src\Config.php";s:4:"line";i:313;s:8:"function";s:9:"getModule";s:5:"class";s:15:"yii\base\Module";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:67:"E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridViewTrait.php";s:4:"line";i:1221;s:8:"function";s:9:"getModule";s:5:"class";s:18:"kartik\base\Config";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:67:"E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridViewTrait.php";s:4:"line";i:790;s:8:"function";s:10:"initModule";s:5:"class";s:20:"kartik\grid\GridView";s:4:"type";s:2:"->";}}i:5;i:9166792;}i:32;a:6:{i:0;s:270:"					
+				select
+					std_t.std_name, 
+					std_t.std_age,
+					class_t.class_name
+				from
+					std_t,
+					std_class_t,
+					class_t
+				where 
+					std_class_t.std_id = std_t.id
+					and
+					std_class_t.class_id = class_t.id				
+			   ORDER BY `std_age` DESC LIMIT 3";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6949179;i:4;a:3:{i:0;a:5:{s:4:"file";s:62:"E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridView.php";s:4:"line";i:209;s:8:"function";s:8:"getCount";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:62:"E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridView.php";s:4:"line";i:115;s:8:"function";s:3:"run";s:5:"class";s:17:"yii\grid\GridView";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:40:"E:\wamp64\www\basic\views\stdt\index.php";s:4:"line";i:109;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}}i:5;i:10299424;}i:35;a:6:{i:0;s:63:"Rendering view file: E:\wamp64\www\basic\views\layouts\main.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1684141529.6979589;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:56;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:10278416;}}}s:9:"profiling";a:3:{s:6:"memory";i:10911432;s:4:"time";d:0.08083796501159668;s:8:"messages";a:16:{i:10;a:6:{i:0;s:57:"Opening DB connection: mysql:host=localhost;dbname=std_db";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1684141529.644804;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:134;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4515040;}i:11;a:6:{i:0;s:57:"Opening DB connection: mysql:host=localhost;dbname=std_db";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1684141529.646297;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:134;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4532008;}i:13;a:6:{i:0;s:191:"    
+				select
+					count( std_t.id )
+				from
+					std_t,
+					std_class_t,
+					class_t
+				where 
+					std_class_t.std_id = std_t.id
+					and
+					std_class_t.class_id = class_t.id
+					 ";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6464479;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:134;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4532080;}i:14;a:6:{i:0;s:191:"    
+				select
+					count( std_t.id )
+				from
+					std_t,
+					std_class_t,
+					class_t
+				where 
+					std_class_t.std_id = std_t.id
+					and
+					std_class_t.class_id = class_t.id
+					 ";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6470039;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:134;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4534152;}i:16;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `std_t`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6513331;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:170;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4946600;}i:17;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `std_t`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6518109;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:170;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4954240;}i:19;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'std_t' AND kcu.table_name = 'std_t'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.652427;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:170;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4981920;}i:20;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'std_t' AND kcu.table_name = 'std_t'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6528349;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:170;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4984264;}i:22;a:6:{i:0;s:42:"SELECT * FROM `class_t` ORDER BY `id` DESC";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.65677;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:51;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5821408;}i:23;a:6:{i:0;s:42:"SELECT * FROM `class_t` ORDER BY `id` DESC";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6569829;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:51;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5824208;}i:25;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `class_t`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.657105;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:51;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5832488;}i:26;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `class_t`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.657403;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:51;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5836880;}i:28;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'class_t' AND kcu.table_name = 'class_t'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6575899;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:51;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5845432;}i:29;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'class_t' AND kcu.table_name = 'class_t'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.65785;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:51;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5847200;}i:33;a:6:{i:0;s:270:"					
+				select
+					std_t.std_name, 
+					std_t.std_age,
+					class_t.class_name
+				from
+					std_t,
+					std_class_t,
+					class_t
+				where 
+					std_class_t.std_id = std_t.id
+					and
+					std_class_t.class_id = class_t.id				
+			   ORDER BY `std_age` DESC LIMIT 3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6949911;i:4;a:3:{i:0;a:5:{s:4:"file";s:62:"E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridView.php";s:4:"line";i:209;s:8:"function";s:8:"getCount";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:62:"E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridView.php";s:4:"line";i:115;s:8:"function";s:3:"run";s:5:"class";s:17:"yii\grid\GridView";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:40:"E:\wamp64\www\basic\views\stdt\index.php";s:4:"line";i:109;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}}i:5;i:10303800;}i:34;a:6:{i:0;s:270:"					
+				select
+					std_t.std_name, 
+					std_t.std_age,
+					class_t.class_name
+				from
+					std_t,
+					std_class_t,
+					class_t
+				where 
+					std_class_t.std_id = std_t.id
+					and
+					std_class_t.class_id = class_t.id				
+			   ORDER BY `std_age` DESC LIMIT 3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6955919;i:4;a:3:{i:0;a:5:{s:4:"file";s:62:"E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridView.php";s:4:"line";i:209;s:8:"function";s:8:"getCount";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:62:"E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridView.php";s:4:"line";i:115;s:8:"function";s:3:"run";s:5:"class";s:17:"yii\grid\GridView";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:40:"E:\wamp64\www\basic\views\stdt\index.php";s:4:"line";i:109;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}}i:5;i:10308384;}}}s:2:"db";a:1:{s:8:"messages";a:14:{i:13;a:6:{i:0;s:191:"    
+				select
+					count( std_t.id )
+				from
+					std_t,
+					std_class_t,
+					class_t
+				where 
+					std_class_t.std_id = std_t.id
+					and
+					std_class_t.class_id = class_t.id
+					 ";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6464479;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:134;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4532080;}i:14;a:6:{i:0;s:191:"    
+				select
+					count( std_t.id )
+				from
+					std_t,
+					std_class_t,
+					class_t
+				where 
+					std_class_t.std_id = std_t.id
+					and
+					std_class_t.class_id = class_t.id
+					 ";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6470039;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:134;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4534152;}i:16;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `std_t`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6513331;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:170;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4946600;}i:17;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `std_t`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6518109;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:170;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4954240;}i:19;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'std_t' AND kcu.table_name = 'std_t'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.652427;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:170;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4981920;}i:20;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'std_t' AND kcu.table_name = 'std_t'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6528349;i:4;a:2:{i:0;a:5:{s:4:"file";s:41:"E:\wamp64\www\basic\models\StdtSearch.php";s:4:"line";i:170;s:8:"function";s:8:"validate";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:48;s:8:"function";s:11:"searchbysql";s:5:"class";s:21:"app\models\StdtSearch";s:4:"type";s:2:"->";}}i:5;i:4984264;}i:22;a:6:{i:0;s:42:"SELECT * FROM `class_t` ORDER BY `id` DESC";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.65677;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:51;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5821408;}i:23;a:6:{i:0;s:42:"SELECT * FROM `class_t` ORDER BY `id` DESC";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6569829;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:51;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5824208;}i:25;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `class_t`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.657105;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:51;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5832488;}i:26;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `class_t`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.657403;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:51;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5836880;}i:28;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'class_t' AND kcu.table_name = 'class_t'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6575899;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:51;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5845432;}i:29;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'class_t' AND kcu.table_name = 'class_t'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.65785;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"E:\wamp64\www\basic\controllers\StdtController.php";s:4:"line";i:51;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5847200;}i:33;a:6:{i:0;s:270:"					
+				select
+					std_t.std_name, 
+					std_t.std_age,
+					class_t.class_name
+				from
+					std_t,
+					std_class_t,
+					class_t
+				where 
+					std_class_t.std_id = std_t.id
+					and
+					std_class_t.class_id = class_t.id				
+			   ORDER BY `std_age` DESC LIMIT 3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6949911;i:4;a:3:{i:0;a:5:{s:4:"file";s:62:"E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridView.php";s:4:"line";i:209;s:8:"function";s:8:"getCount";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:62:"E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridView.php";s:4:"line";i:115;s:8:"function";s:3:"run";s:5:"class";s:17:"yii\grid\GridView";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:40:"E:\wamp64\www\basic\views\stdt\index.php";s:4:"line";i:109;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}}i:5;i:10303800;}i:34;a:6:{i:0;s:270:"					
+				select
+					std_t.std_name, 
+					std_t.std_age,
+					class_t.class_name
+				from
+					std_t,
+					std_class_t,
+					class_t
+				where 
+					std_class_t.std_id = std_t.id
+					and
+					std_class_t.class_id = class_t.id				
+			   ORDER BY `std_age` DESC LIMIT 3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1684141529.6955919;i:4;a:3:{i:0;a:5:{s:4:"file";s:62:"E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridView.php";s:4:"line";i:209;s:8:"function";s:8:"getCount";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:62:"E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridView.php";s:4:"line";i:115;s:8:"function";s:3:"run";s:5:"class";s:17:"yii\grid\GridView";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:40:"E:\wamp64\www\basic\views\stdt\index.php";s:4:"line";i:109;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}}i:5;i:10308384;}}}s:6:"assets";a:18:{s:27:"kartik\form\ActiveFormAsset";a:17:{s:15:"bsPluginEnabled";b:1;s:19:"bsDependencyEnabled";b:1;s:7:"depends";a:4:{i:0;s:16:"yii\web\YiiAsset";i:1;s:27:"yii\widgets\ActiveFormAsset";i:2;s:28:"yii\bootstrap\BootstrapAsset";i:3;s:34:"yii\bootstrap\BootstrapPluginAsset";}s:2:"js";a:1:{i:0;s:16:"js/activeform.js";}s:3:"css";a:1:{i:0;s:18:"css/activeform.css";}s:10:"sourcePath";s:69:"E:\wamp64\www\basic\vendor\kartik-v\yii2-widget-activeform\src/assets";s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\eda35ce4";s:7:"baseUrl";s:26:"/basic/web/assets/eda35ce4";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:0:{}s:9:" * _bsVer";i:3;s:21:" * _defaultIconPrefix";N;s:17:" * _defaultBtnCss";N;s:9:" * _isBs4";N;}s:16:"yii\web\YiiAsset";a:9:{s:10:"sourcePath";s:46:"E:\wamp64\www\basic\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:6:"yii.js";}s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\b19ad0f4";s:7:"baseUrl";s:26:"/basic/web/assets/b19ad0f4";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"yii\web\JqueryAsset";a:9:{s:10:"sourcePath";s:44:"E:\wamp64\www\basic\vendor\bower/jquery/dist";s:2:"js";a:1:{i:0;s:9:"jquery.js";}s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\2a3eeade";s:7:"baseUrl";s:26:"/basic/web/assets/2a3eeade";s:7:"depends";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:27:"yii\widgets\ActiveFormAsset";a:9:{s:10:"sourcePath";s:46:"E:\wamp64\www\basic\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.activeForm.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\b19ad0f4";s:7:"baseUrl";s:26:"/basic/web/assets/b19ad0f4";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:28:"yii\bootstrap\BootstrapAsset";a:9:{s:10:"sourcePath";s:47:"E:\wamp64\www\basic\vendor\bower/bootstrap/dist";s:3:"css";a:1:{i:0;s:17:"css/bootstrap.css";}s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\27ddfe7f";s:7:"baseUrl";s:26:"/basic/web/assets/27ddfe7f";s:7:"depends";a:0:{}s:2:"js";a:0:{}s:9:"jsOptions";a:1:{s:8:"position";i:1;}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:34:"yii\bootstrap\BootstrapPluginAsset";a:9:{s:10:"sourcePath";s:47:"E:\wamp64\www\basic\vendor\bower/bootstrap/dist";s:2:"js";a:1:{i:0;s:15:"js/bootstrap.js";}s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\27ddfe7f";s:7:"baseUrl";s:26:"/basic/web/assets/27ddfe7f";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:27:"kartik\select2\Select2Asset";a:17:{s:19:"bsDependencyEnabled";b:1;s:15:"bsPluginEnabled";b:0;s:7:"depends";a:2:{i:0;s:16:"yii\web\YiiAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:2:"js";a:1:{i:0;s:18:"js/select2.full.js";}s:3:"css";a:1:{i:0;s:15:"css/select2.css";}s:10:"sourcePath";s:47:"E:\wamp64\www\basic\vendor/select2/select2/dist";s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\1ab909eb";s:7:"baseUrl";s:26:"/basic/web/assets/1ab909eb";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:0:{}s:9:" * _bsVer";i:3;s:21:" * _defaultIconPrefix";N;s:17:" * _defaultBtnCss";N;s:9:" * _isBs4";N;}s:34:"kartik\select2\ThemeKrajeeBs3Asset";a:17:{s:7:"depends";a:2:{i:0;s:33:"kartik\select2\Select2KrajeeAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:19:"bsDependencyEnabled";b:1;s:15:"bsPluginEnabled";b:0;s:2:"js";a:0:{}s:3:"css";a:1:{i:0;s:26:"css/select2-krajee-bs3.css";}s:10:"sourcePath";s:66:"E:\wamp64\www\basic\vendor\kartik-v\yii2-widget-select2\src/assets";s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\a4464fba";s:7:"baseUrl";s:26:"/basic/web/assets/a4464fba";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:0:{}s:9:" * _bsVer";i:3;s:21:" * _defaultIconPrefix";N;s:17:" * _defaultBtnCss";N;s:9:" * _isBs4";N;}s:33:"kartik\select2\Select2KrajeeAsset";a:17:{s:7:"depends";a:2:{i:0;s:27:"kartik\select2\Select2Asset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:19:"bsDependencyEnabled";b:1;s:15:"bsPluginEnabled";b:0;s:2:"js";a:1:{i:0;s:20:"js/select2-krajee.js";}s:3:"css";a:1:{i:0;s:20:"css/select2-addl.css";}s:10:"sourcePath";s:66:"E:\wamp64\www\basic\vendor\kartik-v\yii2-widget-select2\src/assets";s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\a4464fba";s:7:"baseUrl";s:26:"/basic/web/assets/a4464fba";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:0:{}s:9:" * _bsVer";i:3;s:21:" * _defaultIconPrefix";N;s:17:" * _defaultBtnCss";N;s:9:" * _isBs4";N;}s:23:"kartik\base\WidgetAsset";a:17:{s:19:"bsDependencyEnabled";b:1;s:15:"bsPluginEnabled";b:0;s:7:"depends";a:2:{i:0;s:16:"yii\web\YiiAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:2:"js";a:1:{i:0;s:16:"js/kv-widgets.js";}s:3:"css";a:1:{i:0;s:18:"css/kv-widgets.css";}s:10:"sourcePath";s:63:"E:\wamp64\www\basic\vendor\kartik-v\yii2-krajee-base\src/assets";s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\b5d6b48c";s:7:"baseUrl";s:26:"/basic/web/assets/b5d6b48c";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:0:{}s:9:" * _bsVer";i:3;s:21:" * _defaultIconPrefix";N;s:17:" * _defaultBtnCss";N;s:9:" * _isBs4";N;}s:25:"kartik\grid\GridViewAsset";a:17:{s:19:"bsDependencyEnabled";b:1;s:15:"bsPluginEnabled";b:0;s:7:"depends";a:4:{i:0;s:25:"kartik\dialog\DialogAsset";i:1;s:22:"yii\grid\GridViewAsset";i:2;s:16:"yii\web\YiiAsset";i:3;s:28:"yii\bootstrap\BootstrapAsset";}s:2:"js";a:0:{}s:3:"css";a:1:{i:0;s:15:"css/kv-grid.css";}s:10:"sourcePath";s:56:"E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src/assets";s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\81a6f3a5";s:7:"baseUrl";s:26:"/basic/web/assets/81a6f3a5";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:0:{}s:9:" * _bsVer";i:3;s:21:" * _defaultIconPrefix";N;s:17:" * _defaultBtnCss";N;s:9:" * _isBs4";N;}s:25:"kartik\dialog\DialogAsset";a:17:{s:7:"depends";a:1:{i:0;s:28:"yii\bootstrap\BootstrapAsset";}s:19:"bsDependencyEnabled";b:1;s:15:"bsPluginEnabled";b:0;s:2:"js";a:1:{i:0;s:12:"js/dialog.js";}s:3:"css";a:0:{}s:10:"sourcePath";s:58:"E:\wamp64\www\basic\vendor\kartik-v\yii2-dialog\src/assets";s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\1543b82c";s:7:"baseUrl";s:26:"/basic/web/assets/1543b82c";s:9:"jsOptions";a:1:{s:8:"position";i:1;}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:0:{}s:9:" * _bsVer";i:3;s:21:" * _defaultIconPrefix";N;s:17:" * _defaultBtnCss";N;s:9:" * _isBs4";N;}s:22:"yii\grid\GridViewAsset";a:9:{s:10:"sourcePath";s:46:"E:\wamp64\www\basic\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:15:"yii.gridView.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\b19ad0f4";s:7:"baseUrl";s:26:"/basic/web/assets/b19ad0f4";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:34:"kartik\dialog\DialogBootstrapAsset";a:17:{s:15:"bsPluginEnabled";b:1;s:19:"bsDependencyEnabled";b:1;s:7:"depends";a:4:{i:0;s:25:"kartik\dialog\DialogAsset";i:1;s:16:"yii\web\YiiAsset";i:2;s:28:"yii\bootstrap\BootstrapAsset";i:3;s:34:"yii\bootstrap\BootstrapPluginAsset";}s:2:"js";a:1:{i:0;s:22:"js/bootstrap-dialog.js";}s:3:"css";a:1:{i:0;s:28:"css/bootstrap-dialog-bs3.css";}s:10:"sourcePath";s:58:"E:\wamp64\www\basic\vendor\kartik-v\yii2-dialog\src/assets";s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\1543b82c";s:7:"baseUrl";s:26:"/basic/web/assets/1543b82c";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:0:{}s:9:" * _bsVer";i:3;s:21:" * _defaultIconPrefix";N;s:17:" * _defaultBtnCss";N;s:9:" * _isBs4";N;}s:28:"kartik\dialog\DialogYiiAsset";a:17:{s:7:"depends";a:3:{i:0;s:25:"kartik\dialog\DialogAsset";i:1;s:16:"yii\web\YiiAsset";i:2;s:28:"yii\bootstrap\BootstrapAsset";}s:19:"bsDependencyEnabled";b:1;s:15:"bsPluginEnabled";b:0;s:2:"js";a:1:{i:0;s:16:"js/dialog-yii.js";}s:3:"css";a:0:{}s:10:"sourcePath";s:58:"E:\wamp64\www\basic\vendor\kartik-v\yii2-dialog\src/assets";s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\1543b82c";s:7:"baseUrl";s:26:"/basic/web/assets/1543b82c";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:0:{}s:9:" * _bsVer";i:3;s:21:" * _defaultIconPrefix";N;s:17:" * _defaultBtnCss";N;s:9:" * _isBs4";N;}s:27:"kartik\grid\GridExportAsset";a:17:{s:19:"bsDependencyEnabled";b:1;s:15:"bsPluginEnabled";b:0;s:7:"depends";a:3:{i:0;s:25:"kartik\dialog\DialogAsset";i:1;s:16:"yii\web\YiiAsset";i:2;s:28:"yii\bootstrap\BootstrapAsset";}s:2:"js";a:1:{i:0;s:20:"js/kv-grid-export.js";}s:3:"css";a:0:{}s:10:"sourcePath";s:56:"E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src/assets";s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\81a6f3a5";s:7:"baseUrl";s:26:"/basic/web/assets/81a6f3a5";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:0:{}s:9:" * _bsVer";i:3;s:21:" * _defaultIconPrefix";N;s:17:" * _defaultBtnCss";N;s:9:" * _isBs4";N;}s:34:"kartik\grid\GridResizeColumnsAsset";a:17:{s:19:"bsDependencyEnabled";b:1;s:15:"bsPluginEnabled";b:0;s:7:"depends";a:3:{i:0;s:16:"yii\web\YiiAsset";i:1;s:25:"kartik\grid\GridViewAsset";i:2;s:28:"yii\bootstrap\BootstrapAsset";}s:2:"js";a:1:{i:0;s:29:"js/jquery.resizableColumns.js";}s:3:"css";a:1:{i:0;s:31:"css/jquery.resizableColumns.css";}s:10:"sourcePath";s:56:"E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src/assets";s:8:"basePath";s:39:"E:\wamp64\www\basic\web\assets\81a6f3a5";s:7:"baseUrl";s:26:"/basic/web/assets/81a6f3a5";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}s:9:"bsVersion";N;s:16:"bsColCssPrefixes";a:0:{}s:9:" * _bsVer";i:3;s:21:" * _defaultIconPrefix";N;s:17:" * _defaultBtnCss";N;s:9:" * _isBs4";N;}s:19:"app\assets\AppAsset";a:9:{s:8:"basePath";s:23:"E:/wamp64/www/basic/web";s:7:"baseUrl";s:10:"/basic/web";s:3:"css";a:1:{i:0;s:12:"css/site.css";}s:2:"js";a:0:{}s:7:"depends";a:2:{i:0;s:16:"yii\web\YiiAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:10:"sourcePath";N;s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}}s:4:"mail";a:0:{}s:8:"timeline";a:3:{s:5:"start";d:1684141529.624043;s:3:"end";d:1684141529.7049429;s:6:"memory";i:10911432;}s:4:"user";N;s:6:"router";a:1:{s:8:"messages";a:1:{i:5;a:6:{i:0;s:56:"Pretty URL not enabled. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1684141529.638402;i:4;a:0:{}i:5;i:3230568;}}}s:7:"summary";a:9:{s:3:"tag";s:13:"6461f5d99b4c7";s:3:"url";s:51:"http://127.0.0.1/basic/web/index.php?r=stdt%2Findex";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:9:"127.0.0.1";s:4:"time";d:1684141529.618;s:10:"statusCode";i:200;s:8:"sqlCount";i:7;s:9:"mailCount";i:0;}}

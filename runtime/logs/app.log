@@ -1,0 +1,1374 @@
+2023-05-08 07:48:28 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The 'gridview' module MUST be setup in your Yii configuration file. in E:\wamp64\www\basic\vendor\kartik-v\yii2-krajee-base\src\Config.php:319
+Stack trace:
+#0 E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridViewTrait.php(1221): kartik\base\Config::getModule('gridview', 'kartik\\grid\\Mod...')
+#1 E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridViewTrait.php(790): kartik\grid\GridView->initModule()
+#2 E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridView.php(100): kartik\grid\GridView->initGridView()
+#3 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Object.php(107): kartik\grid\GridView->init()
+#4 [internal function]: yii\base\Object->__construct(Array)
+#5 E:\wamp64\www\basic\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#6 E:\wamp64\www\basic\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('kartik\\grid\\Gri...', Array, Array)
+#7 E:\wamp64\www\basic\vendor\yiisoft\yii2\BaseYii.php(348): yii\di\Container->get('kartik\\grid\\Gri...', Array, Array)
+#8 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Widget.php(136): yii\BaseYii::createObject(Array)
+#9 E:\wamp64\www\basic\views\stdt\index.php(25): yii\base\Widget::widget(Array)
+#10 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(330): require('E:\\wamp64\\www\\b...')
+#11 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\wamp64\\www\\b...', Array)
+#12 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\wamp64\\www\\b...', Array, Object(app\controllers\StdtController))
+#13 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\StdtController))
+#14 E:\wamp64\www\basic\controllers\StdtController.php(51): yii\base\Controller->render('index', Array)
+#15 [internal function]: app\controllers\StdtController->actionIndex()
+#16 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#18 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#19 E:\wamp64\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt/index', Array)
+#20 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 E:\wamp64\www\basic\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2023-05-08 07:48:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'stdt/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a7fdac03cd288914d0a1e3b98aaacf0c03b7b6d6994db0dde964173271fc27a0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"≠éê‚W`Æò|ºÊ\"Ë4Ô€K5<î\\≠–(“\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/index.php?r=stdt%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => '_csrf=a7fdac03cd288914d0a1e3b98aaacf0c03b7b6d6994db0dde964173271fc27a0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%AD%02%8E%13%90%E2W%60%AE%98%18%7C%05%BC%E6%22%05%E84%EF%DB%1FK5%12%3C%94%5C%AD%D0%28%D2%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;E:\\wamp64\\bin\\php\\php7.0.10;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/7.0.10 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/7.0.10'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/basic/web/index.php'
+    'REMOTE_PORT' => '56861'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt%2Findex'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt%2Findex'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1683532108.919
+    'REQUEST_TIME' => 1683532108
+]
+2023-05-08 08:09:52 [127.0.0.1][-][-][error][Error] Error: Class 'ArrayHelper' not found in E:\wamp64\www\basic\views\stdt\index.php:44
+Stack trace:
+#0 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(330): require()
+#1 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\wamp64\\www\\b...', Array)
+#2 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\wamp64\\www\\b...', Array, Object(app\controllers\StdtController))
+#3 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\StdtController))
+#4 E:\wamp64\www\basic\controllers\StdtController.php(51): yii\base\Controller->render('index', Array)
+#5 [internal function]: app\controllers\StdtController->actionIndex()
+#6 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#9 E:\wamp64\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt/index', Array)
+#10 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp64\www\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2023-05-08 08:09:52 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'stdt/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a7fdac03cd288914d0a1e3b98aaacf0c03b7b6d6994db0dde964173271fc27a0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"≠éê‚W`Æò|ºÊ\"Ë4Ô€K5<î\\≠–(“\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/index.php?r=stdt%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => '_csrf=a7fdac03cd288914d0a1e3b98aaacf0c03b7b6d6994db0dde964173271fc27a0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%AD%02%8E%13%90%E2W%60%AE%98%18%7C%05%BC%E6%22%05%E84%EF%DB%1FK5%12%3C%94%5C%AD%D0%28%D2%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;E:\\wamp64\\bin\\php\\php7.0.10;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/7.0.10 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/7.0.10'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/basic/web/index.php'
+    'REMOTE_PORT' => '57293'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt%2Findex'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt%2Findex'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1683533392.392
+    'REQUEST_TIME' => 1683533392
+]
+2023-05-08 08:10:13 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: bysjclass in E:\wamp64\www\basic\views\stdt\index.php:45
+Stack trace:
+#0 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile()
+#1 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile()
+#2 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render()
+#3 E:\wamp64\www\basic\controllers\StdtController.php(51): yii\base\Controller->render()
+#4 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): app\controllers\StdtController->actionIndex()
+#5 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{E:\wamp64\www\basic\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#6 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#7 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#8 E:\wamp64\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 E:\wamp64\www\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-05-08 08:10:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'stdt/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a7fdac03cd288914d0a1e3b98aaacf0c03b7b6d6994db0dde964173271fc27a0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"≠éê‚W`Æò|ºÊ\"Ë4Ô€K5<î\\≠–(“\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/index.php?r=stdt%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => '_csrf=a7fdac03cd288914d0a1e3b98aaacf0c03b7b6d6994db0dde964173271fc27a0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%AD%02%8E%13%90%E2W%60%AE%98%18%7C%05%BC%E6%22%05%E84%EF%DB%1FK5%12%3C%94%5C%AD%D0%28%D2%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;E:\\wamp64\\bin\\php\\php7.0.10;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/7.0.10 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/7.0.10'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/basic/web/index.php'
+    'REMOTE_PORT' => '57305'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt%2Findex'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt%2Findex'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1683533413.67
+    'REQUEST_TIME' => 1683533413
+]
+2023-05-08 09:19:00 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'std_t.std1_name' in 'field list' in E:\wamp64\www\basic\vendor\yiisoft\yii2\db\Command.php:915
+Stack trace:
+#0 E:\wamp64\www\basic\vendor\yiisoft\yii2\db\Command.php(915): PDOStatement->execute()
+#1 E:\wamp64\www\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 E:\wamp64\www\basic\vendor\yiisoft\yii2\data\SqlDataProvider.php(137): yii\db\Command->queryAll()
+#3 E:\wamp64\www\basic\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\SqlDataProvider->prepareModels()
+#4 E:\wamp64\www\basic\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#5 E:\wamp64\www\basic\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#6 E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridView.php(209): yii\data\BaseDataProvider->getCount()
+#7 E:\wamp64\www\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(157): kartik\grid\GridView->renderSummary()
+#8 E:\wamp64\www\basic\vendor\yiisoft\yii2\grid\GridView.php(316): yii\widgets\BaseListView->renderSection('{summary}')
+#9 E:\wamp64\www\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(134): yii\grid\GridView->renderSection('{summary}')
+#10 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#11 E:\wamp64\www\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(137): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n<div ...')
+#12 E:\wamp64\www\basic\vendor\yiisoft\yii2\grid\GridView.php(291): yii\widgets\BaseListView->run()
+#13 E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridView.php(115): yii\grid\GridView->run()
+#14 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Widget.php(139): kartik\grid\GridView->run()
+#15 E:\wamp64\www\basic\views\stdt\index.php(74): yii\base\Widget::widget(Array)
+#16 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(330): require('E:\\wamp64\\www\\b...')
+#17 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\wamp64\\www\\b...', '[<span class="s...')
+#18 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\wamp64\\www\\b...', Array, Object(app\controllers\StdtController))
+#19 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\StdtController))
+#20 E:\wamp64\www\basic\controllers\StdtController.php(56): yii\base\Controller->render('index', Array)
+#21 [internal function]: app\controllers\StdtController->actionIndex()
+#22 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#23 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#24 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#25 E:\wamp64\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt/index', Array)
+#26 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 E:\wamp64\www\basic\web\index.php(12): yii\base\Application->run()
+#28 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'std_t.std1_name' in 'field list'
+The SQL being executed was: 					
+				select
+					std_t.std1_name, 
+					std_t.std_age,
+					class_t.class_name
+				from
+					std_t					
+				left join
+					std_class_t on 
+								std_class_t.std_id = std_t.id
+				left join
+					class_t on 
+							std_class_t.class_id = class_t.id				
+			   AND std_t.std_name LIKE '%Âº†‰∏â%'  AND std_class_t.class_id = '2'  LIMIT 3 in E:\wamp64\www\basic\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 E:\wamp64\www\basic\vendor\yiisoft\yii2\db\Command.php(930): yii\db\Schema->convertException(Object(PDOException), '\t\t\t\t\t\n\t\t\t\tselec...')
+#1 E:\wamp64\www\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 E:\wamp64\www\basic\vendor\yiisoft\yii2\data\SqlDataProvider.php(137): yii\db\Command->queryAll()
+#3 E:\wamp64\www\basic\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\SqlDataProvider->prepareModels()
+#4 E:\wamp64\www\basic\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#5 E:\wamp64\www\basic\vendor\yiisoft\yii2\data\BaseDataProvider.php(155): yii\data\BaseDataProvider->getModels()
+#6 E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridView.php(209): yii\data\BaseDataProvider->getCount()
+#7 E:\wamp64\www\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(157): kartik\grid\GridView->renderSummary()
+#8 E:\wamp64\www\basic\vendor\yiisoft\yii2\grid\GridView.php(316): yii\widgets\BaseListView->renderSection('{summary}')
+#9 E:\wamp64\www\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(134): yii\grid\GridView->renderSection('{summary}')
+#10 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#11 E:\wamp64\www\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(137): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n<div ...')
+#12 E:\wamp64\www\basic\vendor\yiisoft\yii2\grid\GridView.php(291): yii\widgets\BaseListView->run()
+#13 E:\wamp64\www\basic\vendor\kartik-v\yii2-grid\src\GridView.php(115): yii\grid\GridView->run()
+#14 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Widget.php(139): kartik\grid\GridView->run()
+#15 E:\wamp64\www\basic\views\stdt\index.php(74): yii\base\Widget::widget(Array)
+#16 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(330): require('E:\\wamp64\\www\\b...')
+#17 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\wamp64\\www\\b...', '[<span class="s...')
+#18 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\wamp64\\www\\b...', Array, Object(app\controllers\StdtController))
+#19 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(app\controllers\StdtController))
+#20 E:\wamp64\www\basic\controllers\StdtController.php(56): yii\base\Controller->render('index', Array)
+#21 [internal function]: app\controllers\StdtController->actionIndex()
+#22 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#23 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#24 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#25 E:\wamp64\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt/index', Array)
+#26 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 E:\wamp64\www\basic\web\index.php(12): yii\base\Application->run()
+#28 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'std_t.std1_name' in 'field list'
+)
+
+2023-05-08 09:18:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'stdt/index'
+    'StdtSearch' => [
+        'stdname' => 'Âº†‰∏â'
+        'classname' => '2'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'a7fdac03cd288914d0a1e3b98aaacf0c03b7b6d6994db0dde964173271fc27a0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"≠éê‚W`Æò|ºÊ\"Ë4Ô€K5<î\\≠–(“\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/index.php?r=stdt%2Findex&StdtSearch%5Bstdname%5D=%E5%BC%A0%E4%B8%89&StdtSearch%5Bclassname%5D=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => '_csrf=a7fdac03cd288914d0a1e3b98aaacf0c03b7b6d6994db0dde964173271fc27a0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%AD%02%8E%13%90%E2W%60%AE%98%18%7C%05%BC%E6%22%05%E84%EF%DB%1FK5%12%3C%94%5C%AD%D0%28%D2%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;E:\\wamp64\\bin\\php\\php7.0.10;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/7.0.10 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/7.0.10'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/basic/web/index.php'
+    'REMOTE_PORT' => '65322'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt%2Findex&StdtSearch%5Bstdname%5D=%E5%BC%A0%E4%B8%89&StdtSearch%5Bclassname%5D=2'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt%2Findex&StdtSearch%5Bstdname%5D=%E5%BC%A0%E4%B8%89&StdtSearch%5Bclassname%5D=2'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1683537539.974
+    'REQUEST_TIME' => 1683537539
+]
+2023-05-15 08:59:02 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: cat_obj in E:\wamp64\www\basic\views\stdt\index.php:97
+Stack trace:
+#0 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile()
+#1 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile()
+#2 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render()
+#3 E:\wamp64\www\basic\controllers\StdtController.php(56): yii\base\Controller->render()
+#4 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): app\controllers\StdtController->actionIndex()
+#5 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{E:\wamp64\www\basic\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#6 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#7 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#8 E:\wamp64\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 E:\wamp64\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 E:\wamp64\www\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-05-15 08:59:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'stdt/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f84049cee71a70fbaa834a59642f114ef1afcc56741a2e5fb42a7d9125e7ea5ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Õp,‰ﬂz{·˛øç1tn(ÈÕº“Èaëí>‡Â‹o\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://127.0.0.1/basic/web/index.php?r=stdt%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'
+    'HTTP_COOKIE' => '_csrf=f84049cee71a70fbaa834a59642f114ef1afcc56741a2e5fb42a7d9125e7ea5ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%14%CDp%2C%E4%DFz%7B%E1%FE%BF%8D1t%07n%28%E9%CD%BC%D2%E9%1Ba%91%92%14%3E%E0%E5%DCo%22%3B%7D'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;E:\\wamp64\\bin\\php\\php7.0.10;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/7.0.10 Server at 127.0.0.1 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/7.0.10'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'E:/wamp64/www/basic/web/index.php'
+    'REMOTE_PORT' => '58580'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt%2Findex'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt%2Findex'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1684141142.398
+    'REQUEST_TIME' => 1684141142
+]
+2024-05-16 14:04:17 [::1][-][-][error][yii\db\Exception] PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php:646
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(646): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(579): yii\db\Connection->createPdoInstance()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare(true)
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('class_t')
+#10 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(330): yii\db\Schema->getTableSchema('class_t')
+#11 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(364): yii\db\ActiveRecord::getTableSchema()
+#12 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(472): yii\db\ActiveRecord->attributes()
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(279): yii\db\BaseActiveRecord->hasAttribute('id')
+#14 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\validators\Validator.php(263): yii\db\BaseActiveRecord->__get('id')
+#15 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Model.php(358): yii\validators\Validator->validateAttributes(Object(app\models\ClasstSearch), Array)
+#16 D:\Program\wamp3.2.0\server\www\basic\models\ClasstSearch.php(54): yii\base\Model->validate()
+#17 D:\Program\wamp3.2.0\server\www\basic\controllers\ClasstController.php(39): app\models\ClasstSearch->search(Array)
+#18 [internal function]: app\controllers\ClasstController->actionIndex()
+#19 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#20 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#21 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#22 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('classt', Array)
+#23 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#25 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php:646
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(646): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(579): yii\db\Connection->createPdoInstance()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare(true)
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('class_t')
+#10 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(330): yii\db\Schema->getTableSchema('class_t')
+#11 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(364): yii\db\ActiveRecord::getTableSchema()
+#12 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(472): yii\db\ActiveRecord->attributes()
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(279): yii\db\BaseActiveRecord->hasAttribute('id')
+#14 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\validators\Validator.php(263): yii\db\BaseActiveRecord->__get('id')
+#15 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Model.php(358): yii\validators\Validator->validateAttributes(Object(app\models\ClasstSearch), Array)
+#16 D:\Program\wamp3.2.0\server\www\basic\models\ClasstSearch.php(54): yii\base\Model->validate()
+#17 D:\Program\wamp3.2.0\server\www\basic\controllers\ClasstController.php(39): app\models\ClasstSearch->search(Array)
+#18 [internal function]: app\controllers\ClasstController->actionIndex()
+#19 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#20 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#21 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#22 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('classt', Array)
+#23 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#25 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php:584
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare(true)
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('class_t')
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(330): yii\db\Schema->getTableSchema('class_t')
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(364): yii\db\ActiveRecord::getTableSchema()
+#10 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(472): yii\db\ActiveRecord->attributes()
+#11 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(279): yii\db\BaseActiveRecord->hasAttribute('id')
+#12 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\validators\Validator.php(263): yii\db\BaseActiveRecord->__get('id')
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Model.php(358): yii\validators\Validator->validateAttributes(Object(app\models\ClasstSearch), Array)
+#14 D:\Program\wamp3.2.0\server\www\basic\models\ClasstSearch.php(54): yii\base\Model->validate()
+#15 D:\Program\wamp3.2.0\server\www\basic\controllers\ClasstController.php(39): app\models\ClasstSearch->search(Array)
+#16 [internal function]: app\controllers\ClasstController->actionIndex()
+#17 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#18 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#19 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#20 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('classt', Array)
+#21 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#23 {main}
+Additional Information:
+
+2024-05-16 14:04:16 [::1][-][-][info][application] $_GET = [
+    'r' => 'classt'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Å«∏EµµvÔÀ„p°√Rà‰„ô¬Oñ/µÍ∏œM\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"124\", \"Microsoft Edge\";v=\"124\", \"Not-A.Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%81%C7%B8E%15%B5%B5v%EF%CB%E3p%A1%C3R%88%1D%E4%E3%99%C2O%96%2F%11%03%15%B5%EA%B8%CFM%22%3B%7D'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cÁºñËØëÂô®\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\ÂâçÁ´ØÊ°ÜÊû∂\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '52462'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=classt'
+    'REQUEST_URI' => '/basic/web/index.php?r=classt'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1715868256.479
+    'REQUEST_TIME' => 1715868256
+]
+2024-05-16 14:04:48 [::1][-][-][error][yii\db\Exception] PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php:646
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(646): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(579): yii\db\Connection->createPdoInstance()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare(true)
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('class_t')
+#10 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(330): yii\db\Schema->getTableSchema('class_t')
+#11 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(364): yii\db\ActiveRecord::getTableSchema()
+#12 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(472): yii\db\ActiveRecord->attributes()
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(279): yii\db\BaseActiveRecord->hasAttribute('id')
+#14 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\validators\Validator.php(263): yii\db\BaseActiveRecord->__get('id')
+#15 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Model.php(358): yii\validators\Validator->validateAttributes(Object(app\models\ClasstSearch), Array)
+#16 D:\Program\wamp3.2.0\server\www\basic\models\ClasstSearch.php(54): yii\base\Model->validate()
+#17 D:\Program\wamp3.2.0\server\www\basic\controllers\ClasstController.php(39): app\models\ClasstSearch->search(Array)
+#18 [internal function]: app\controllers\ClasstController->actionIndex()
+#19 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#20 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#21 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#22 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('classt', Array)
+#23 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#25 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php:646
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(646): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(579): yii\db\Connection->createPdoInstance()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare(true)
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('class_t')
+#10 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(330): yii\db\Schema->getTableSchema('class_t')
+#11 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(364): yii\db\ActiveRecord::getTableSchema()
+#12 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(472): yii\db\ActiveRecord->attributes()
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(279): yii\db\BaseActiveRecord->hasAttribute('id')
+#14 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\validators\Validator.php(263): yii\db\BaseActiveRecord->__get('id')
+#15 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Model.php(358): yii\validators\Validator->validateAttributes(Object(app\models\ClasstSearch), Array)
+#16 D:\Program\wamp3.2.0\server\www\basic\models\ClasstSearch.php(54): yii\base\Model->validate()
+#17 D:\Program\wamp3.2.0\server\www\basic\controllers\ClasstController.php(39): app\models\ClasstSearch->search(Array)
+#18 [internal function]: app\controllers\ClasstController->actionIndex()
+#19 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#20 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#21 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#22 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('classt', Array)
+#23 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#25 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php:584
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare(true)
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('class_t')
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(330): yii\db\Schema->getTableSchema('class_t')
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(364): yii\db\ActiveRecord::getTableSchema()
+#10 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(472): yii\db\ActiveRecord->attributes()
+#11 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(279): yii\db\BaseActiveRecord->hasAttribute('id')
+#12 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\validators\Validator.php(263): yii\db\BaseActiveRecord->__get('id')
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Model.php(358): yii\validators\Validator->validateAttributes(Object(app\models\ClasstSearch), Array)
+#14 D:\Program\wamp3.2.0\server\www\basic\models\ClasstSearch.php(54): yii\base\Model->validate()
+#15 D:\Program\wamp3.2.0\server\www\basic\controllers\ClasstController.php(39): app\models\ClasstSearch->search(Array)
+#16 [internal function]: app\controllers\ClasstController->actionIndex()
+#17 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#18 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#19 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#20 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('classt', Array)
+#21 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#23 {main}
+Additional Information:
+
+2024-05-16 14:04:48 [::1][-][-][info][application] $_GET = [
+    'r' => 'classt'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Å«∏EµµvÔÀ„p°√Rà‰„ô¬Oñ/µÍ∏œM\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"124\", \"Microsoft Edge\";v=\"124\", \"Not-A.Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%81%C7%B8E%15%B5%B5v%EF%CB%E3p%A1%C3R%88%1D%E4%E3%99%C2O%96%2F%11%03%15%B5%EA%B8%CFM%22%3B%7D'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cÁºñËØëÂô®\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\ÂâçÁ´ØÊ°ÜÊû∂\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '52495'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=classt'
+    'REQUEST_URI' => '/basic/web/index.php?r=classt'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1715868288.777
+    'REQUEST_TIME' => 1715868288
+]
+2024-05-16 14:04:53 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "cla". in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cla', Array)
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-05-16 14:04:53 [::1][-][-][info][application] $_GET = [
+    'r' => 'cla'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Å«∏EµµvÔÀ„p°√Rà‰„ô¬Oñ/µÍ∏œM\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"124\", \"Microsoft Edge\";v=\"124\", \"Not-A.Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%81%C7%B8E%15%B5%B5v%EF%CB%E3p%A1%C3R%88%1D%E4%E3%99%C2O%96%2F%11%03%15%B5%EA%B8%CFM%22%3B%7D'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cÁºñËØëÂô®\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\ÂâçÁ´ØÊ°ÜÊû∂\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '52496'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cla'
+    'REQUEST_URI' => '/basic/web/index.php?r=cla'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1715868293.289
+    'REQUEST_TIME' => 1715868293
+]
+2024-05-16 14:04:56 [::1][-][-][error][yii\db\Exception] PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php:646
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(646): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(579): yii\db\Connection->createPdoInstance()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare(true)
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('class_t')
+#10 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(330): yii\db\Schema->getTableSchema('class_t')
+#11 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(364): yii\db\ActiveRecord::getTableSchema()
+#12 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(472): yii\db\ActiveRecord->attributes()
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(279): yii\db\BaseActiveRecord->hasAttribute('id')
+#14 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\validators\Validator.php(263): yii\db\BaseActiveRecord->__get('id')
+#15 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Model.php(358): yii\validators\Validator->validateAttributes(Object(app\models\ClasstSearch), Array)
+#16 D:\Program\wamp3.2.0\server\www\basic\models\ClasstSearch.php(54): yii\base\Model->validate()
+#17 D:\Program\wamp3.2.0\server\www\basic\controllers\ClasstController.php(39): app\models\ClasstSearch->search(Array)
+#18 [internal function]: app\controllers\ClasstController->actionIndex()
+#19 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#20 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#21 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#22 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('classt', Array)
+#23 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#25 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php:646
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(646): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(579): yii\db\Connection->createPdoInstance()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare(true)
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('class_t')
+#10 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(330): yii\db\Schema->getTableSchema('class_t')
+#11 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(364): yii\db\ActiveRecord::getTableSchema()
+#12 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(472): yii\db\ActiveRecord->attributes()
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(279): yii\db\BaseActiveRecord->hasAttribute('id')
+#14 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\validators\Validator.php(263): yii\db\BaseActiveRecord->__get('id')
+#15 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Model.php(358): yii\validators\Validator->validateAttributes(Object(app\models\ClasstSearch), Array)
+#16 D:\Program\wamp3.2.0\server\www\basic\models\ClasstSearch.php(54): yii\base\Model->validate()
+#17 D:\Program\wamp3.2.0\server\www\basic\controllers\ClasstController.php(39): app\models\ClasstSearch->search(Array)
+#18 [internal function]: app\controllers\ClasstController->actionIndex()
+#19 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#20 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#21 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#22 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('classt', Array)
+#23 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#25 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php:584
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(910): yii\db\Command->prepare(true)
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('class_t')
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(330): yii\db\Schema->getTableSchema('class_t')
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(364): yii\db\ActiveRecord::getTableSchema()
+#10 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(472): yii\db\ActiveRecord->attributes()
+#11 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(279): yii\db\BaseActiveRecord->hasAttribute('id')
+#12 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\validators\Validator.php(263): yii\db\BaseActiveRecord->__get('id')
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Model.php(358): yii\validators\Validator->validateAttributes(Object(app\models\ClasstSearch), Array)
+#14 D:\Program\wamp3.2.0\server\www\basic\models\ClasstSearch.php(54): yii\base\Model->validate()
+#15 D:\Program\wamp3.2.0\server\www\basic\controllers\ClasstController.php(39): app\models\ClasstSearch->search(Array)
+#16 [internal function]: app\controllers\ClasstController->actionIndex()
+#17 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#18 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#19 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#20 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('classt', Array)
+#21 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#23 {main}
+Additional Information:
+
+2024-05-16 14:04:56 [::1][-][-][info][application] $_GET = [
+    'r' => 'classt'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Å«∏EµµvÔÀ„p°√Rà‰„ô¬Oñ/µÍ∏œM\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"124\", \"Microsoft Edge\";v=\"124\", \"Not-A.Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%81%C7%B8E%15%B5%B5v%EF%CB%E3p%A1%C3R%88%1D%E4%E3%99%C2O%96%2F%11%03%15%B5%EA%B8%CFM%22%3B%7D'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cÁºñËØëÂô®\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\ÂâçÁ´ØÊ°ÜÊû∂\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '52514'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=classt'
+    'REQUEST_URI' => '/basic/web/index.php?r=classt'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1715868296.657
+    'REQUEST_TIME' => 1715868296
+]
+2024-05-16 14:05:02 [::1][-][-][error][yii\db\Exception] PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php:646
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(646): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(579): yii\db\Connection->createPdoInstance()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php(483): yii\db\Connection->getSlavePdo()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(824): yii\db\Schema->quoteValue('')
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('')
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(866): yii\db\Command->getRawSql()
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(887): yii\db\Command->logQuery('yii\\db\\Command:...')
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#10 D:\Program\wamp3.2.0\server\www\basic\models\StdtSearch.php(134): yii\db\Command->queryScalar()
+#11 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(46): app\models\StdtSearch->searchbysql(Array)
+#12 [internal function]: app\controllers\StdtController->actionIndex()
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#16 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt', Array)
+#17 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#19 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php:646
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(646): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(579): yii\db\Connection->createPdoInstance()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php(483): yii\db\Connection->getSlavePdo()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(824): yii\db\Schema->quoteValue('')
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('')
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(866): yii\db\Command->getRawSql()
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(887): yii\db\Command->logQuery('yii\\db\\Command:...')
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#10 D:\Program\wamp3.2.0\server\www\basic\models\StdtSearch.php(134): yii\db\Command->queryScalar()
+#11 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(46): app\models\StdtSearch->searchbysql(Array)
+#12 [internal function]: app\controllers\StdtController->actionIndex()
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#16 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt', Array)
+#17 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#19 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php:584
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php(483): yii\db\Connection->getSlavePdo()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(824): yii\db\Schema->quoteValue('')
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('')
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(866): yii\db\Command->getRawSql()
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(887): yii\db\Command->logQuery('yii\\db\\Command:...')
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#8 D:\Program\wamp3.2.0\server\www\basic\models\StdtSearch.php(134): yii\db\Command->queryScalar()
+#9 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(46): app\models\StdtSearch->searchbysql(Array)
+#10 [internal function]: app\controllers\StdtController->actionIndex()
+#11 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#14 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt', Array)
+#15 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#17 {main}
+Additional Information:
+
+2024-05-16 14:05:02 [::1][-][-][info][application] $_GET = [
+    'r' => 'stdt'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Å«∏EµµvÔÀ„p°√Rà‰„ô¬Oñ/µÍ∏œM\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"124\", \"Microsoft Edge\";v=\"124\", \"Not-A.Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%81%C7%B8E%15%B5%B5v%EF%CB%E3p%A1%C3R%88%1D%E4%E3%99%C2O%96%2F%11%03%15%B5%EA%B8%CFM%22%3B%7D'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cÁºñËØëÂô®\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\ÂâçÁ´ØÊ°ÜÊû∂\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '52524'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1715868302.655
+    'REQUEST_TIME' => 1715868302
+]
+2024-05-16 14:06:00 [::1][-][-][error][yii\db\Exception] PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php:646
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(646): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(579): yii\db\Connection->createPdoInstance()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php(483): yii\db\Connection->getSlavePdo()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(824): yii\db\Schema->quoteValue('')
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('')
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(866): yii\db\Command->getRawSql()
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(887): yii\db\Command->logQuery('yii\\db\\Command:...')
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#10 D:\Program\wamp3.2.0\server\www\basic\models\StdtSearch.php(134): yii\db\Command->queryScalar()
+#11 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(46): app\models\StdtSearch->searchbysql(Array)
+#12 [internal function]: app\controllers\StdtController->actionIndex()
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#16 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt', Array)
+#17 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#19 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php:646
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(646): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(579): yii\db\Connection->createPdoInstance()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php(483): yii\db\Connection->getSlavePdo()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(824): yii\db\Schema->quoteValue('')
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('')
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(866): yii\db\Command->getRawSql()
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(887): yii\db\Command->logQuery('yii\\db\\Command:...')
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#10 D:\Program\wamp3.2.0\server\www\basic\models\StdtSearch.php(134): yii\db\Command->queryScalar()
+#11 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(46): app\models\StdtSearch->searchbysql(Array)
+#12 [internal function]: app\controllers\StdtController->actionIndex()
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#16 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt', Array)
+#17 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#19 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php:584
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(928): yii\db\Connection->open()
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(915): yii\db\Connection->getMasterPdo()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php(483): yii\db\Connection->getSlavePdo()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Connection.php(824): yii\db\Schema->quoteValue('')
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('')
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(866): yii\db\Command->getRawSql()
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(887): yii\db\Command->logQuery('yii\\db\\Command:...')
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#8 D:\Program\wamp3.2.0\server\www\basic\models\StdtSearch.php(134): yii\db\Command->queryScalar()
+#9 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(46): app\models\StdtSearch->searchbysql(Array)
+#10 [internal function]: app\controllers\StdtController->actionIndex()
+#11 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#14 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt', Array)
+#15 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#17 {main}
+Additional Information:
+
+2024-05-16 14:06:00 [::1][-][-][info][application] $_GET = [
+    'r' => 'stdt'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Å«∏EµµvÔÀ„p°√Rà‰„ô¬Oñ/µÍ∏œM\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"124\", \"Microsoft Edge\";v=\"124\", \"Not-A.Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%81%C7%B8E%15%B5%B5v%EF%CB%E3p%A1%C3R%88%1D%E4%E3%99%C2O%96%2F%11%03%15%B5%EA%B8%CFM%22%3B%7D'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cÁºñËØëÂô®\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\ÂâçÁ´ØÊ°ÜÊû∂\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '52569'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1715868360.874
+    'REQUEST_TIME' => 1715868360
+]
+2024-05-16 14:06:28 [::1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_data.std_t' doesn't exist in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php:915
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(915): PDOStatement->execute()
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 D:\Program\wamp3.2.0\server\www\basic\models\StdtSearch.php(134): yii\db\Command->queryScalar()
+#3 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(46): app\models\StdtSearch->searchbysql(Array)
+#4 [internal function]: app\controllers\StdtController->actionIndex()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt', Array)
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_data.std_t' doesn't exist
+The SQL being executed was:     
+				select
+					count( std_t.id )
+				from
+					std_t,
+					std_class_t,
+					class_t
+				where 
+					std_class_t.std_id = std_t.id
+					and
+					std_class_t.class_id = class_t.id
+					  in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(930): yii\db\Schema->convertException(Object(PDOException), '    \n\t\t\t\tselect...')
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 D:\Program\wamp3.2.0\server\www\basic\models\StdtSearch.php(134): yii\db\Command->queryScalar()
+#3 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(46): app\models\StdtSearch->searchbysql(Array)
+#4 [internal function]: app\controllers\StdtController->actionIndex()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt', Array)
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii_data.std_t' doesn't exist
+)
+
+2024-05-16 14:06:28 [::1][-][-][info][application] $_GET = [
+    'r' => 'stdt'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Å«∏EµµvÔÀ„p°√Rà‰„ô¬Oñ/µÍ∏œM\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"124\", \"Microsoft Edge\";v=\"124\", \"Not-A.Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%81%C7%B8E%15%B5%B5v%EF%CB%E3p%A1%C3R%88%1D%E4%E3%99%C2O%96%2F%11%03%15%B5%EA%B8%CFM%22%3B%7D'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cÁºñËØëÂô®\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\ÂâçÁ´ØÊ°ÜÊû∂\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '52573'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1715868388.698
+    'REQUEST_TIME' => 1715868388
+]
+2024-05-16 14:07:04 [::1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_data.std_t' doesn't exist in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php:915
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(915): PDOStatement->execute()
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 D:\Program\wamp3.2.0\server\www\basic\models\StdtSearch.php(134): yii\db\Command->queryScalar()
+#3 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(46): app\models\StdtSearch->searchbysql(Array)
+#4 [internal function]: app\controllers\StdtController->actionIndex()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt', Array)
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_data.std_t' doesn't exist
+The SQL being executed was:     
+				select
+					count( std_t.id )
+				from
+					std_t,
+					std_class_t,
+					class_t
+				where 
+					std_class_t.std_id = std_t.id
+					and
+					std_class_t.class_id = class_t.id
+					  in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(930): yii\db\Schema->convertException(Object(PDOException), '    \n\t\t\t\tselect...')
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 D:\Program\wamp3.2.0\server\www\basic\models\StdtSearch.php(134): yii\db\Command->queryScalar()
+#3 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(46): app\models\StdtSearch->searchbysql(Array)
+#4 [internal function]: app\controllers\StdtController->actionIndex()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt', Array)
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii_data.std_t' doesn't exist
+)
+
+2024-05-16 14:07:03 [::1][-][-][info][application] $_GET = [
+    'r' => 'stdt'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Å«∏EµµvÔÀ„p°√Rà‰„ô¬Oñ/µÍ∏œM\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"124\", \"Microsoft Edge\";v=\"124\", \"Not-A.Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=4dfc0f3191058403381bede22edd9868aa39823e81b337f3871bf9be1db1e22aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%81%C7%B8E%15%B5%B5v%EF%CB%E3p%A1%C3R%88%1D%E4%E3%99%C2O%96%2F%11%03%15%B5%EA%B8%CFM%22%3B%7D'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cÁºñËØëÂô®\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\ÂâçÁ´ØÊ°ÜÊû∂\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '52584'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1715868423.948
+    'REQUEST_TIME' => 1715868423
+]
