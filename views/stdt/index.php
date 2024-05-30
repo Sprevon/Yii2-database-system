@@ -1,6 +1,7 @@
 <?php
 
 use yii\helpers\Html;
+
 //use yii\grid\GridView;
 use kartik\grid\GridView;
 use kartik\form\ActiveForm;
@@ -11,139 +12,162 @@ use yii\helpers\ArrayHelper;
 /* @var $searchModel app\models\StdtSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Stdts';
-$this->params['breadcrumbs'][] = $this->title;
+$this->title = '学生信息查询';
+$this->params['breadcrumbs'][] = 'stdt';
 ?>
 <div class="stdt-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
-	<div class="row">
+    <div class="row">
 
-		<div class="col-md-8">
+        <div class="col-md-8">
 
-			<!--搜索表单-->
-			<?php $form = ActiveForm::begin([  
-				'action' => ['index'],  
-				'method' => 'get', 
-				'type' => ActiveForm::TYPE_HORIZONTAL,
+            <!--搜索表单-->
+            <?php $form = ActiveForm::begin([
+                'action' => ['index'],
+                'method' => 'get',
+                'type' => ActiveForm::TYPE_HORIZONTAL,
 
-			]); ?>  
-		
-			<div class="row">
+            ]); ?>
 
-				<div class="col-sm-5">
-					<?= $form->field($searchModel, 'stdname')->textInput( [ 'autofocus' => false, 
-																			'placeholder' => '请输入学生姓名 ...',
-																			"value" => !empty( $_GET["StdtSearch"]["stdname"] ) ? 
-																							$_GET["StdtSearch"]["stdname"] : "",
-																		  ] ) -> label( false ) ?>
-				</div>
-					
-				<div class="col-sm-5">
-					<?= $form->field($searchModel, 'classname')->widget(Select2::classname(), [
-								'data' => ArrayHelper::map( $c_list, 'id', 'class_name' ),
-								'size' => Select2::MEDIUM,
-								'options' => [
-										'placeholder' => '请选择班级 ...',
-										'class'=>'form-control', 								
-										'style'=>'  ',
-										"value" => !empty( $_GET["StdtSearch"]["classname"] ) ? $_GET["StdtSearch"]["classname"] : "",
-								],
-								'pluginOptions' => [
-									'allowClear' => true
-								],
-					]) -> label( false ); ?>
-				</div>
+            <div class="row">
 
-				<div class="col-sm-1">
-					<?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>
-				</div>
-			</div>
+                <div class="col-sm-5">
+                    <?= $form->field($searchModel, 'stdname')->textInput(['autofocus' => false,
+                        'placeholder' => '请输入学生姓名 ...',
+                        "value" => !empty($_GET["StdtSearch"]["stdname"]) ?
+                            $_GET["StdtSearch"]["stdname"] : "",
+                    ])->label(false) ?>
+                </div>
 
-			<?php ActiveForm::end(); ?>
+                <div class="col-sm-5">
+                    <?= $form->field($searchModel, 'classname')->widget(Select2::classname(), [
+                        'data' => ArrayHelper::map($c_list, 'id', 'class_name'),
+                        'size' => Select2::MEDIUM,
+                        'options' => [
+                            'placeholder' => '请选择班级 ...',
+                            'class' => 'form-control ',
+                            'style' => '  ',
+                            "value" => !empty($_GET["StdtSearch"]["classname"]) ? $_GET["StdtSearch"]["classname"] : "",
+                        ],
+                        'pluginOptions' => [
+                            'allowClear' => true
+                        ],
+                    ])->label(false); ?>
+                </div>
 
-		</div>
-	</div>
+                <div class="col-sm-1">
+                    <?= Html::submitButton('搜索', ['class' => 'btn btn-primary']) ?>
+                </div>
+            </div>
+
+            <?php ActiveForm::end(); ?>
+
+        </div>
+    </div>
 
     <p>
-        <?= Html::a('Create Stdt', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('创建学生', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
-<?php
-// 数据库依赖
-$dependency_1_1 = new \yii\caching\DbDependency(
-	[ 
-		'sql' => 'SELECT max( std_t.update_date ) FROM std_t',
-	] );
+    <?php
+    // 数据库依赖
+    $dependency_1_1 = new \yii\caching\DbDependency(
+        [
+            'sql' => 'SELECT max( std_t.update_date ) FROM std_t',
+        ]);
 
-$dependency_1_2 = new \yii\caching\DbDependency(
-	[ 
-		'sql' => 'SELECT count( * ) FROM std_file',
-	] );
+    $dependency_1_2 = new \yii\caching\DbDependency(
+        [
+            'sql' => 'SELECT count( * ) FROM std_file',
+        ]);
 
-if( 
-	$this -> beginCache( 'cache_1_stdt_index_' . ( isset( $_GET['page'] ) ? $_GET['page'] : 0 ), 
-								[ 'dependency' => new \yii\caching\ChainedDependency( [ 
-														'dependOnAll'=>true,
-														'dependencies' => [ $dependency_1_1, $dependency_1_2 ]
-													] ), 
-								  'duration' => 3600 
-								] 
-				) 
-) {
-?>
+    if (
+        $this->beginCache('cache_1_stdt_index_' . (isset($_GET['page']) ? $_GET['page'] : 0),
+            ['dependency' => new \yii\caching\ChainedDependency([
+                'dependOnAll' => true,
+                'dependencies' => [$dependency_1_1, $dependency_1_2]
+            ]),
+                'duration' => 3600
+            ]
+        )
+    ) {
+        ?>
 
-    <?= GridView::widget([
-		'dataProvider' => $dataProvider,
-		'filterModel' => $searchModel,
-		'tableOptions' => [ 'class' => 'table table-bordered table-hover', "id"=>"example2", 'style' => 'font-size:16px;  ' ],
-		'caption' => "",
-		'showHeader' => true,
-		"filterPosition" => GridView::FILTER_POS_FOOTER,
-		'summary' => "<div class='summary' style=' padding-top:15px; padding-bottom:6px; font-size:16px; '>共 {totalCount} 门课程</div>",
-		'formatter' => ['class' => 'yii\i18n\Formatter','nullDisplay' => '<span style="color:#959595; font-size:16px; ">空</span>'],
-		'pager'=>[
-			   //'options'=>['class'=>'hidden']//关闭自带分页
-			   'maxButtonCount'=>20,
-			   'firstPageLabel'=>"首页",
-			   'prevPageLabel'=>'上一页',
-			   'nextPageLabel'=>'下一页',
-			   'lastPageLabel'=>'尾页',
-	   ],
-        'columns' => [
-            
-			//['class' => 'yii\grid\SerialColumn'],
-			[
-				'class' => 'yii\grid\SerialColumn',
-				'headerOptions' => [ 'width' => '5%', "style" => "color:#1B809E; font-weight:normal; text-align:center; " ],
-				'contentOptions' => [ 'style' => "text-align:center; " ],
-			],	
+        <?= GridView::widget([
+            'dataProvider' => $dataProvider,
+            'filterModel' => $searchModel,
+            'tableOptions' => ['class' => 'table table-bordered table-hover', "id" => "example2", 'style' => 'font-size:16px;  '],
+            'caption' => "",
+            'showHeader' => true,
+            "filterPosition" => GridView::FILTER_POS_FOOTER,
+            'summary' => "<div class='summary' style=' padding-top:15px; padding-bottom:6px; font-size:16px; '>共 {totalCount} 条学生数据</div>",
+            'formatter' => ['class' => 'yii\i18n\Formatter', 'nullDisplay' => '<span style="color:#959595; font-size:16px; ">空</span>'],
+            'pager' => [
+                //'options'=>['class'=>'hidden']//关闭自带分页
+                'maxButtonCount' => 20,
+                'firstPageLabel' => "首页",
+                'prevPageLabel' => '上一页',
+                'nextPageLabel' => '下一页',
+                'lastPageLabel' => '尾页',
+            ],
+            'columns' => [
 
-            //'std_name',
-			[
-				'attribute' => 'std_name',
-				'value' => function ($model) {
+                //['class' => 'yii\grid\SerialColumn'],
+                [
+                    'class' => 'yii\grid\SerialColumn',
+                    'headerOptions' => ['width' => '5%', "style" => "color:#1B809E; font-weight:normal; text-align:center; "],
+                    'contentOptions' => ['style' => "text-align:center; "],
+                    'header' => '序号'
+                ],
 
-					return $model["std_name"];
+                //'std_name',
+                [
+                    'attribute' => 'std_name',
+                    'value' => function ($model) {
 
-				},
-				'headerOptions' => [ 'width' => '15%', "style" => "color:#1B809E; font-weight:normal; " ],
-				'contentOptions' => [ 'style' => "color:#333333; " ],
-				"label"=>"学生姓名",
-				"format"=>"raw",
-			],
+                        return $model["std_name"];
 
-			'std_age',
-            'class_name',
+                    },
+                    'headerOptions' => ['width' => '15%', "style" => "color:#1B809E; font-weight:normal; "],
+                    'contentOptions' => ['style' => "color:#333333; "],
+                    "label" => "学生姓名",
+                    "format" => "raw",
+                ],
 
-            ['class' => 'yii\grid\ActionColumn'],
-        ],
-    ]); ?>
 
-<?php
-	$this->endCache();
-}
-?>	
+                //'std_age',
+                [
+                    'attribute' => 'std_age',
+                    "label" => "学生年龄",
+                    "format" => "raw",
+                    'headerOptions' => ['width' => '15%', 'style' => 'color:#1B809E; font-weight:normal;'],
+                    'contentOptions' => ['style' => 'color:#333333;'],
+                ],
+
+                //'class_name',
+                [
+                    'attribute' => 'class_name',
+                    'label' => "班级",
+                    "format" => "raw",
+                    'headerOptions' => ['width' => '15%', 'style' => 'color:#1B809E; font-weight:normal;'],
+                    'contentOptions' => ['style' => 'color:#333333;'],
+                ],
+
+                // 自定义列名
+                [
+                    'class' => 'yii\grid\ActionColumn',
+                    'headerOptions' => ['width' => '10%', "style" => "color:#1B809E; font-weight:normal; text-align:center;"],
+                    'contentOptions' => ['style' => "text-align:center;"],
+                    'header' => '操作',
+                ],
+            ],
+        ]); ?>
+
+        <?php
+        $this->endCache();
+    }
+    ?>
 </div>

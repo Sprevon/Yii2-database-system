@@ -19,7 +19,8 @@
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "kartik-v/yii2-widgets": "dev-master",
-        "kartik-v/yii2-grid": "dev-master"
+        "kartik-v/yii2-grid": "dev-master",
+        "almasaeed2010/adminlte": "v2.4.3"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
@@ -39,7 +40,8 @@
             }
         },
         "allow-plugins": {
-            "yiisoft/yii2-composer": true
+            "yiisoft/yii2-composer": true,
+            "composer/installers": true
         }
     },
     "scripts": {
@@ -59,6 +61,12 @@
             "generateCookieValidationKey": [
                 "config/web.php"
             ]
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://repo.packagist.org"
         }
     }
 }

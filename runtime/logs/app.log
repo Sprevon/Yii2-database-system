@@ -1372,3 +1372,934 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1715868423.948
     'REQUEST_TIME' => 1715868423
 ]
+2024-05-30 10:22:25 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "sm-course". in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('sm-course', Array)
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-05-30 10:22:24 [::1][-][-][info][application] $_GET = [
+    'r' => 'sm-course'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cç¼–è¯‘å™¨\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\å‰ç«¯æ¡†æž¶\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '50188'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sm-course'
+    'REQUEST_URI' => '/basic/web/index.php?r=sm-course'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1717064543.905
+    'REQUEST_TIME' => 1717064543
+]
+2024-05-30 10:36:10 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php:229
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): app\controllers\StdtController->runAction()
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\web\Application->runAction()
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#5 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\web\Application->run()
+#6 {main}
+2024-05-30 10:36:10 [::1][-][-][info][application] $_GET = [
+    'r' => 'stdt/update'
+    'id' => '0'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ûá±PÂ	ÁssV0íz^›Ú
+”~ò Ê‡…DK¶Ò¥¯\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8000/basic/web/index.php?r=stdt'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%DB%E1%B1P%C2%09%15%C1ssV0%EDz%5E%9B%DA%0A%94%7E%07%F2+%CA%87%85DK%B6%D2%A5%AF%22%3B%7D'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cç¼–è¯‘å™¨\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\å‰ç«¯æ¡†æž¶\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '51166'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt%2Fupdate&id=0'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt%2Fupdate&id=0'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1717065370.515
+    'REQUEST_TIME' => 1717065370
+]
+2024-05-30 10:36:16 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: The requested page does not exist. in D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php:290
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(81): app\controllers\StdtController->findModel('0')
+#1 [internal function]: app\controllers\StdtController->actionView('0')
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt/view', Array)
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2024-05-30 10:36:16 [::1][-][-][info][application] $_GET = [
+    'r' => 'stdt/view'
+    'id' => '0'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ûá±PÂ	ÁssV0íz^›Ú
+”~ò Ê‡…DK¶Ò¥¯\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8000/basic/web/index.php?r=stdt'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%DB%E1%B1P%C2%09%15%C1ssV0%EDz%5E%9B%DA%0A%94%7E%07%F2+%CA%87%85DK%B6%D2%A5%AF%22%3B%7D'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cç¼–è¯‘å™¨\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\å‰ç«¯æ¡†æž¶\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '51167'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt%2Fview&id=0'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt%2Fview&id=0'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1717065376.145
+    'REQUEST_TIME' => 1717065376
+]
+2024-05-30 10:48:21 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: The requested page does not exist. in D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php:290
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(81): app\controllers\StdtController->findModel('0')
+#1 [internal function]: app\controllers\StdtController->actionView('0')
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt/view', Array)
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2024-05-30 10:48:21 [::1][-][-][info][application] $_GET = [
+    'r' => 'stdt/view'
+    'id' => '0'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ûá±PÂ	ÁssV0íz^›Ú
+”~ò Ê‡…DK¶Ò¥¯\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8000/basic/web/index.php?r=stdt%2Findex&page=1&per-page=3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%DB%E1%B1P%C2%09%15%C1ssV0%EDz%5E%9B%DA%0A%94%7E%07%F2+%CA%87%85DK%B6%D2%A5%AF%22%3B%7D'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cç¼–è¯‘å™¨\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\å‰ç«¯æ¡†æž¶\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '52620'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt%2Fview&id=0'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt%2Fview&id=0'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1717066101.684
+    'REQUEST_TIME' => 1717066101
+]
+2024-05-30 11:23:13 [::1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: The requested page does not exist. in D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php:290
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(81): app\controllers\StdtController->findModel('0')
+#1 [internal function]: app\controllers\StdtController->actionView('0')
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt/view', Array)
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2024-05-30 11:23:13 [::1][-][-][info][application] $_GET = [
+    'r' => 'stdt/view'
+    'id' => '0'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ûá±PÂ	ÁssV0íz^›Ú
+”~ò Ê‡…DK¶Ò¥¯\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8000/basic/web/index.php?r=stdt%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%DB%E1%B1P%C2%09%15%C1ssV0%EDz%5E%9B%DA%0A%94%7E%07%F2+%CA%87%85DK%B6%D2%A5%AF%22%3B%7D'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cç¼–è¯‘å™¨\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\å‰ç«¯æ¡†æž¶\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '55231'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt%2Fview&id=0'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt%2Fview&id=0'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1717068193.825
+    'REQUEST_TIME' => 1717068193
+]
+2024-05-30 11:55:04 [-][-][-][error][yii\console\Exception] yii\console\Exception: You should specify cache components names in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\console\controllers\CacheController.php:77
+Stack trace:
+#0 [internal function]: yii\console\controllers\CacheController->actionFlush()
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('flush', Array)
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('flush', Array)
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('cache/flush', Array)
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('cache/flush', Array)
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\Program\wamp3.2.0\server\www\basic\yii(20): yii\base\Application->run()
+#9 {main}
+2024-05-30 11:55:04 [-][-][-][info][application] $_SERVER = [
+    'IntelliJ_IDEA_Community_Edition' => 'D:\\Program\\IDEA\\IntelliJ IDEA Community Edition 2022.3.1\\bin;'
+    'PSExecutionPolicyPreference' => 'Bypass'
+    'TERM_SESSION_ID' => 'a126b734-ccc2-4a1c-ae91-b832487cd220'
+    'MinGW_HOME' => 'D:\\C\\c±àÒëÆ÷\\mingw64'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PyCharm' => 'D:\\Program\\PyCharm\\PyCharm 2023.1\\bin;'
+    'USERNAME' => 'Seven'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERPROFILE' => 'C:\\Users\\Seven'
+    'PROCESSOR_REVISION' => '6001'
+    'IDEA_INITIAL_DIRECTORY' => 'D:\\Program\\PhpStorm\\PhpStorm 2024.1.1\\bin'
+    'MAVEN_HOME' => 'D:\\Program\\Maven\\apache-maven-3.8.7'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'Path' => 'D:\\Program\\wamp3.2.0\\server\\bin\\php\\php7.0.33;D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\c±àÒëÆ÷\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\Ç°¶Ë¿ò¼Ü\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\Users\\Seven\\.cargo\\bin;C:\\Users\\Seven\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\Seven\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\Seven\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\Seven\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\Seven\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Seven\\.dotnet\\tools;D:\\Visual Studio\\Code\\C language\\C\\c compiler\\mingw64\\bin;C:\\Users\\Seven\\AppData\\Roaming\\npm;D:\\Program\\IDEA\\IntelliJ IDEA Community Edition 2022.3.1\\bin;D:\\Program\\IntelliJ IDEA\\IntelliJ\\IntelliJ IDEA 2022.3.1\\bin;D:\\Program\\PyCharm\\PyCharm 2023.1\\bin;D:\\Program\\CLion\\CLion 2023.1.1\\bin;;D:\\Program\\DataGrip\\DataGrip 2023.1.2\\bin;;D:\\Program\\GoLang\\GoLand 2023.1\\bin;;D:\\Program\\WebStorm\\WebStorm 2023.1.2\\bin;;C:\\Users\\Seven\\AppData\\Local\\JetBrains\\Toolbox\\scripts;D:\\Program\\MikTex\\miktex\\bin\\x64\\;D:\\Program\\DataSpell\\DataSpell\\DataSpell 2022.3.2\\bin;;C:\\Program Files\\Azure Data Studio\\bin;D:\\Program\\Microsoft VS Code\\bin;C:\\Users\\Seven\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Program\\ohpm\\bin;D:\\Program\\PhpStorm\\PhpStorm 2024.1.1\\bin;;D:\\Program\\RustRover\\RustRover 233.14015.155\\bin;;C:\\Users\\Seven\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Seven\\AppData\\Local\\Yarn\\bin'
+    'DataGrip' => 'D:\\Program\\DataGrip\\DataGrip 2023.1.2\\bin;'
+    'TOMCAT_HOME' => 'D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'SESSIONNAME' => 'Console'
+    'LOGONSERVER' => '\\\\SPREVONLAP'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'HOMEPATH' => '\\Users\\Seven'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'WebStorm' => 'D:\\Program\\WebStorm\\WebStorm 2023.1.2\\bin;'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'CATALINA_HOME' => 'D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64'
+    'VBOX_HWVIRTEX_IGNORE_SVM_IN_USE' => '1'
+    'ERLANG_HOME' => 'D:\\Program\\Erlang\\Erlang OTP'
+    'LOCALAPPDATA' => 'C:\\Users\\Seven\\AppData\\Local'
+    'ohpm' => 'D:\\Program\\ohpm\\bin'
+    'APPDATA' => 'C:\\Users\\Seven\\AppData\\Roaming'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD'
+    'GoLand' => 'D:\\Program\\GoLang\\GoLand 2023.1\\bin;'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PSModulePath' => 'C:\\Users\\Seven\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\PowerShell\\Modules\\'
+    'DataSpell' => 'D:\\Program\\DataSpell\\DataSpell\\DataSpell 2022.3.2\\bin;'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'asl_log' => 'Destination=file'
+    'JETBRAINS_INTELLIJ_COMMAND_END_MARKER' => 'Uszs6wlmpRXfaJdVQKtrA1nHcwJaIG6SVAw5rrQ22BQlOfTJyiyaGQ993d0vM2mI'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'NUMBER_OF_PROCESSORS' => '16'
+    'PhpStorm' => 'D:\\Program\\PhpStorm\\PhpStorm 2024.1.1\\bin;'
+    'JAVA_HOME' => 'D:\\Program\\IntelliJ IDEA\\.jdk'
+    'PROCESSOR_LEVEL' => '23'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'windir' => 'C:\\WINDOWS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'SPREVONLAP'
+    'ProgramFiles' => 'C:\\Program Files'
+    'EFC_5792' => '1'
+    'DATASPELL_VM_OPTIONS' => 'D:\\Program\\DataSpell\\Dataspell download2022.3 activate\\jetbra-DataSpell\\jetbra\\vmoptions\\dataspell.vmoptions'
+    'CLion' => 'D:\\Program\\CLion\\CLion 2023.1.1\\bin;'
+    'TEMP' => 'C:\\Users\\Seven\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Seven\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'OneDrive' => 'C:\\Users\\Seven\\OneDrive'
+    'USERDOMAIN' => 'SPREVONLAP'
+    'SystemDrive' => 'C:'
+    'RustRover' => 'D:\\Program\\RustRover\\RustRover 233.14015.155\\bin;'
+    'CATALINA_BASE' => 'D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64'
+    'ProgramData' => 'C:\\ProgramData'
+    'COMPUTERNAME' => 'SPREVONLAP'
+    'ChocolateyLastPathUpdate' => '133127332252517977'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'IntelliJ_IDEA' => 'D:\\Program\\IntelliJ IDEA\\IntelliJ\\IntelliJ IDEA 2022.3.1\\bin;'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1717070104.7841
+    'REQUEST_TIME' => 1717070104
+    'argv' => [
+        0 => 'yii'
+        1 => 'cache/flush'
+    ]
+    'argc' => 2
+]
+2024-05-30 13:06:36 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in D:\Program\wamp3.2.0\server\www\basic\views\layouts\main.php:44
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\View.php(250): yii\web\View->renderPhpFile()
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(396): yii\web\View->renderFile()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(382): app\controllers\StdtController->renderContent()
+#3 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(69): app\controllers\StdtController->render()
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): app\controllers\StdtController->actionIndex()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): app\controllers\StdtController->runAction()
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\web\Application->runAction()
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\web\Application->run()
+#11 {main}
+2024-05-30 13:05:56 [::1][-][-][info][application] $_GET = [
+    'r' => 'stdt'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ûá±PÂ	ÁssV0íz^›Ú
+”~ò Ê‡…DK¶Ò¥¯\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%DB%E1%B1P%C2%09%15%C1ssV0%EDz%5E%9B%DA%0A%94%7E%07%F2+%CA%87%85DK%B6%D2%A5%AF%22%3B%7D'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cç¼–è¯‘å™¨\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\å‰ç«¯æ¡†æž¶\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '54726'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1717074356.352
+    'REQUEST_TIME' => 1717074356
+]
+2024-05-30 13:17:43 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in D:\Program\wamp3.2.0\server\www\basic\views\layouts\main.php:42
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\View.php(250): yii\web\View->renderPhpFile()
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(396): yii\web\View->renderFile()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(382): app\controllers\StdtController->renderContent()
+#3 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(69): app\controllers\StdtController->render()
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): app\controllers\StdtController->actionIndex()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): app\controllers\StdtController->runAction()
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\web\Application->runAction()
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\web\Application->run()
+#11 {main}
+2024-05-30 13:17:42 [::1][-][-][info][application] $_GET = [
+    'r' => 'stdt/index'
+    'page' => '1'
+    'per-page' => '3'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ûá±PÂ	ÁssV0íz^›Ú
+”~ò Ê‡…DK¶Ò¥¯\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8000/basic/web/index.php?r=stdt%2Findex&page=2&per-page=3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%DB%E1%B1P%C2%09%15%C1ssV0%EDz%5E%9B%DA%0A%94%7E%07%F2+%CA%87%85DK%B6%D2%A5%AF%22%3B%7D'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cç¼–è¯‘å™¨\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\å‰ç«¯æ¡†æž¶\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '55387'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt%2Findex&page=1&per-page=3'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt%2Findex&page=1&per-page=3'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1717075062.946
+    'REQUEST_TIME' => 1717075062
+]
+2024-05-30 13:52:12 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in D:\Program\wamp3.2.0\server\www\basic\views\layouts\main.php:41
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\View.php(250): yii\web\View->renderPhpFile()
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(396): yii\web\View->renderFile()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(382): app\controllers\StdtController->renderContent()
+#3 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(69): app\controllers\StdtController->render()
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): app\controllers\StdtController->actionIndex()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): app\controllers\StdtController->runAction()
+#8 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\web\Application->runAction()
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\web\Application->run()
+#11 {main}
+2024-05-30 13:52:12 [::1][-][-][info][application] $_GET = [
+    'r' => 'stdt/index'
+    'page' => '1'
+    'per-page' => '3'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ûá±PÂ	ÁssV0íz^›Ú
+”~ò Ê‡…DK¶Ò¥¯\";}'
+    'Phpstorm-1f3a31d6' => '57807a3c-389d-4d96-b78b-0cbb88de8912'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8000/basic/web/index.php?r=stdt%2Findex&page=2&per-page=3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%DB%E1%B1P%C2%09%15%C1ssV0%EDz%5E%9B%DA%0A%94%7E%07%F2+%CA%87%85DK%B6%D2%A5%AF%22%3B%7D; Phpstorm-1f3a31d6=57807a3c-389d-4d96-b78b-0cbb88de8912'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cç¼–è¯‘å™¨\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\å‰ç«¯æ¡†æž¶\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '58354'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt%2Findex&page=1&per-page=3'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt%2Findex&page=1&per-page=3'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1717077132.822
+    'REQUEST_TIME' => 1717077132
+]
+2024-05-30 14:53:16 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "#/site/index". in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('#/site/index', Array)
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-05-30 14:53:16 [::1][-][-][info][application] $_GET = [
+    'r' => '#/site/index'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ûá±PÂ	ÁssV0íz^›Ú
+”~ò Ê‡…DK¶Ò¥¯\";}'
+    'Phpstorm-1f3a31d6' => '57807a3c-389d-4d96-b78b-0cbb88de8912'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8000/basic/web/index.php?r=stdt'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%DB%E1%B1P%C2%09%15%C1ssV0%EDz%5E%9B%DA%0A%94%7E%07%F2+%CA%87%85DK%B6%D2%A5%AF%22%3B%7D; Phpstorm-1f3a31d6=57807a3c-389d-4d96-b78b-0cbb88de8912'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cç¼–è¯‘å™¨\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\å‰ç«¯æ¡†æž¶\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '62196'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=%23%2Fsite%2Findex'
+    'REQUEST_URI' => '/basic/web/index.php?r=%23%2Fsite%2Findex'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1717080796.645
+    'REQUEST_TIME' => 1717080796
+]
+2024-05-30 14:53:27 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: stdt/# in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('#', Array)
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('stdt/#', Array)
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-05-30 14:53:27 [::1][-][-][info][application] $_GET = [
+    'r' => 'stdt/#'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ûá±PÂ	ÁssV0íz^›Ú
+”~ò Ê‡…DK¶Ò¥¯\";}'
+    'Phpstorm-1f3a31d6' => '57807a3c-389d-4d96-b78b-0cbb88de8912'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8000/basic/web/index.php?r=stdt'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%DB%E1%B1P%C2%09%15%C1ssV0%EDz%5E%9B%DA%0A%94%7E%07%F2+%CA%87%85DK%B6%D2%A5%AF%22%3B%7D; Phpstorm-1f3a31d6=57807a3c-389d-4d96-b78b-0cbb88de8912'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cç¼–è¯‘å™¨\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\å‰ç«¯æ¡†æž¶\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '62208'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt%2F%23'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt%2F%23'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1717080807.004
+    'REQUEST_TIME' => 1717080807
+]
+2024-05-30 14:53:36 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "#/site/index". in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('#/site/index', Array)
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-05-30 14:53:36 [::1][-][-][info][application] $_GET = [
+    'r' => '#/site/index'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ûá±PÂ	ÁssV0íz^›Ú
+”~ò Ê‡…DK¶Ò¥¯\";}'
+    'Phpstorm-1f3a31d6' => '57807a3c-389d-4d96-b78b-0cbb88de8912'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8000/basic/web/index.php?r=stdt'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%DB%E1%B1P%C2%09%15%C1ssV0%EDz%5E%9B%DA%0A%94%7E%07%F2+%CA%87%85DK%B6%D2%A5%AF%22%3B%7D; Phpstorm-1f3a31d6=57807a3c-389d-4d96-b78b-0cbb88de8912'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cç¼–è¯‘å™¨\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\å‰ç«¯æ¡†æž¶\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '62216'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=%23%2Fsite%2Findex'
+    'REQUEST_URI' => '/basic/web/index.php?r=%23%2Fsite%2Findex'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1717080816.307
+    'REQUEST_TIME' => 1717080816
+]
+2024-05-30 14:53:45 [::1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Uninitialized string offset: 0 in D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2-bootstrap\Nav.php:256
+Stack trace:
+#0 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2-bootstrap\Nav.php(147): yii\bootstrap\Nav->renderItem()
+#1 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2-bootstrap\Nav.php(134): yii\bootstrap\Nav->renderItems()
+#2 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Widget.php(139): yii\bootstrap\Nav->run()
+#3 D:\Program\wamp3.2.0\server\www\basic\views\layouts\main.php(70): yii\base\Widget::widget()
+#4 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\View.php(330): yii\web\View->unknown()
+#5 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\View.php(250): yii\web\View->renderPhpFile()
+#6 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(396): yii\web\View->renderFile()
+#7 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(382): app\controllers\StdtController->renderContent()
+#8 D:\Program\wamp3.2.0\server\www\basic\controllers\StdtController.php(69): app\controllers\StdtController->render()
+#9 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): app\controllers\StdtController->actionIndex()
+#10 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#11 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#12 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Module.php(523): app\controllers\StdtController->runAction()
+#13 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\web\Application.php(102): yii\web\Application->runAction()
+#14 D:\Program\wamp3.2.0\server\www\basic\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#15 D:\Program\wamp3.2.0\server\www\basic\web\index.php(12): yii\web\Application->run()
+#16 {main}
+2024-05-30 14:53:45 [::1][-][-][info][application] $_GET = [
+    'r' => 'stdt'
+]
+
+$_COOKIE = [
+    'Idea-a6ea8672' => '1aaee3f7-ea04-439b-937a-8a4dc71f7597'
+    '_csrf' => '00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ûá±PÂ	ÁssV0íz^›Ú
+”~ò Ê‡…DK¶Ò¥¯\";}'
+    'Phpstorm-1f3a31d6' => '57807a3c-389d-4d96-b78b-0cbb88de8912'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8000/basic/web/index.php?r=stdt'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'Idea-a6ea8672=1aaee3f7-ea04-439b-937a-8a4dc71f7597; _csrf=00fd0f924b698d8df4ec72e88d3fb93e890905a297e68cc87a6108865727e7cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%DB%E1%B1P%C2%09%15%C1ssV0%EDz%5E%9B%DA%0A%94%7E%07%F2+%CA%87%85DK%B6%D2%A5%AF%22%3B%7D; Phpstorm-1f3a31d6=57807a3c-389d-4d96-b78b-0cbb88de8912'
+    'PATH' => 'D:\\Program\\Rtools\\Rtools\\bin;D:\\Program\\IntelliJ IDEA\\.jdk\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Matlab\\runtime\\win64;D:\\Matlab\\bin;D:\\Matlab\\polyspace\\bin;D:\\C\\cç¼–è¯‘å™¨\\mingw64\\bin;C:;Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;D:\\Program\\å‰ç«¯æ¡†æž¶\\Node.js\\;C:\\;rogramData\\chocolatey\\bin;D:\\Program\\tomcat\\apache-tomcat-8.5.85-windows-x64\\bin;D:\\Program\\Maven\\apache-maven-3.8.7\\bin;D:\\Program\\Git\\cmd;D:\\Program\\matlab\\matlabProducts\\runtime\\win64;D:\\Program\\matlab\\matlabProducts\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\;D:\\Program\\ohpm\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program\\RationalROSE\\ROSE program\\common;C:\\Program Files\\dotnet\\;D:\\Program\\wamp64\\bin\\php\\php7.4.33;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program\\yarn\\bin\\;D:\\Program\\MongoDB\\bin;D:\\Program\\mongo_tools\\mongosh\\bin;D:\\Program\\Erlang\\Erlang OTP\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) PHP/7.0.33 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) PHP/7.0.33'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Program/wamp3.2.0/server/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/Program/wamp3.2.0/server/www/basic/web/index.php'
+    'REMOTE_PORT' => '62223'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=stdt'
+    'REQUEST_URI' => '/basic/web/index.php?r=stdt'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1717080825.636
+    'REQUEST_TIME' => 1717080825
+]

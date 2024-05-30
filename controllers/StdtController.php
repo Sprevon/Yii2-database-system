@@ -101,7 +101,8 @@ class StdtController extends Controller
     }*/
 
 	public function actionCreate() //
-    {			
+    {	
+	
 		$model = new UploadForm();
 
 		return $this->render( 'create', [
@@ -199,15 +200,40 @@ class StdtController extends Controller
      */
     public function actionUpdate($id)
     {
-        $model = $this->findModel($id);
+		$transaction = Yii::$app->db->beginTransaction();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
-        } else {
-            return $this->render('update', [
-                'model' => $model,
-            ]);
-        }
+		try{
+
+			$model = $this->findModel($id);
+
+			if (
+				$model->load(Yii::$app->request->post()) 
+				&& 
+				$model->save()
+			) {
+				
+			} else {
+
+				$error=array_values( $model->getFirstErrors() )[0];
+				throw new Exception($error);//抛出异常				
+			}
+		
+			$transaction -> commit();
+
+		}catch ( \Exception $e ) {
+						
+			//如果抛出错误则进入catch，先callback，然后捕获错误，返回错误
+			$transaction -> rollBack();					
+
+			return $this->render('update', [
+				'model' => $model,
+			]);
+			//return Helper::arrayReturn(['status'=>false,'msg'=>$e->getMessage()]);
+			//var_dump( $e->getMessage() );
+			//exit;
+		}
+
+		return $this->redirect(['view', 'id' => $model->id]);
     }
 
     /**
@@ -218,7 +244,33 @@ class StdtController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
+		$transaction = Yii::$app->db->beginTransaction();
+
+		try{
+			$model = $this->findModel($id);
+
+			if(
+				$model
+				and
+				$model->delete()
+			) {
+			
+			}else{
+			
+				$error=array_values( $model->getFirstErrors() )[0];
+				throw new Exception($error);//抛出异常	
+			}
+
+			$transaction -> commit();
+		}catch ( \Exception $e ) {
+						
+			//如果抛出错误则进入catch，先callback，然后捕获错误，返回错误
+			$transaction -> rollBack();					
+			
+			//return Helper::arrayReturn(['status'=>false,'msg'=>$e->getMessage()]);
+			var_dump( $e->getMessage() );
+			exit;
+		}
 
         return $this->redirect(['index']);
     }
